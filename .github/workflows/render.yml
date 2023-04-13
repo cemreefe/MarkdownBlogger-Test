@@ -24,9 +24,9 @@ jobs:
         cd MarkdownBlogger
         python3 render.py ../source 'TestWebsite - MarkdownBlogger'
         echo "---"
-        lsa
+        ls
         echo "---"
-        lsa ..
+        ls ..
         echo "---"
         
     - name: Commit changes
