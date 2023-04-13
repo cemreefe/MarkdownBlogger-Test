@@ -35,7 +35,7 @@ jobs:
         rm -r MarkdownBlogger-Test
         echo "---"
     - name: See changes
-        ls -t
+      run: ls -t
         
     - name: Commit changes
       run: |
