@@ -44,8 +44,12 @@ jobs:
         mkdir ghp
         cd ghp
         git clone -b gh-pages https://github.com/cemreefe/MarkdownBlogger-Test
+        pwd 
+        ls
     - name: Clean github pages branch
       run: |
+        pwd
+        ls
         cd MarkdownBlogger-Test
         git rm -r '*'
     - name: Move new output into github pages branch
