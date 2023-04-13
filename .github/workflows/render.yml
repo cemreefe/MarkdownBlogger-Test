@@ -2,47 +2,24 @@ name: Render with MarkdownBlogger
 
 on:
   push:
-    branches: [gh-pages]
+    branches: [ gh-pages ]
 
 jobs:
-  run-script:
+  run_script:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          repository: cemreefe/MarkdownBlogger
-          ref: main
-          submodules: recursive
-          path: MarkdownBlogger  # specify the directory to checkout the repository
-
-      - name: Set up Python 3
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-          
-      - name: Install Python modules
-        run: |
-            pip3 install markdown==3.3.4 jinja2
-            
-      - name: Echo Pwd
-        run: |
-            echo "----"
-            pwd
-            echo "----"
-            ls
-            echo "----"
-            ls ..
-            echo "----"
-            ls ../..
-            echo "----"
-            echo "${{ github.action_path }}"
-            ls ${{ github.action_path }}
-            echo " ---"
-            echo "${{ github.workspace }}"
-            echo " ---"
-            ls ${{ github.workspace }}
-            
-      - name: Run Python script
-        working-directory: ${{ github.workspace }}
-        run: python3 MarkdownBlogger/render.py ${{ github.workspace }}/source 'MarkdownBlogger Test'
+    - uses: actions/checkout@v2
+    - name: Set up Python3
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip3 install markdown==3.3.4 jinja2
+    - name: Clone MarkdownBlogger
+      run: git clone https://github.com/cemreefe/MarkdownBlogger
+    - name: Run MarkdownBlogger
+      run: |
+        cd MarkdownBlogger
+        python3 render.py ../source 'TestWebsite - MarkdownBlogger'
