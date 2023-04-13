@@ -38,6 +38,23 @@ jobs:
         echo "---"
     - name: See changes 1
       run: ls -t
+    - name: Clone github pages branch
+      run: |
+        cd ..
+        mkdir ghp
+        cd ghp
+        git clone -b gh-pages https://github.com/cemreefe/MarkdownBlogger-Test
+    - name: Clean github pages branch
+      run: |
+        cd MarkdownBlogger-Test
+        git rm -r '*'
+    - name: Move new output into github pages branch
+      run: |
+        mv ../../MarkdownBlogger-Test/output/* .
+    - name: Look around
+      run: |
+        pwd
+        ls
 
         
     - name: Commit changes
