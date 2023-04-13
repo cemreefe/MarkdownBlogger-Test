@@ -33,7 +33,7 @@ jobs:
       run: |
         git config --global user.name 'Cemre'
         git config --global user.email 'cemreefe@users.noreply.github.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+        git remote set-url origin https://x-access-token:${{ secrets.AUTO_RENDER_PAT }}@github.com/$GITHUB_REPOSITORY
         git checkout "${GITHUB_REF:11}"
         git add -A 
         git commit -m "Automated rendering"
