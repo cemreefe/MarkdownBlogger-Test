@@ -64,10 +64,9 @@ jobs:
     - name: Commit changes
       run: |
         cd ../ghp/MarkdownBlogger-Test/
-        git config --global user.name 'Cemre'
-        git config --global user.email 'cemreefe@users.noreply.github.com'
+        git config --global user.name '${{ github.actor }}'
+        git config --global user.email '${{ github.actor }}@users.noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.AUTO_RENDER_PAT }}@github.com/$GITHUB_REPOSITORY
-        # git checkout "${GITHUB_REF:11}"
         git add -A 
-        git commit -m "Automated rendering"
+        git commit -m "Automatically rendered on `date +'%Y-%m-%d %H:%M:%S'`"
         git push
