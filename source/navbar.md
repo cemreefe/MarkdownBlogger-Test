@@ -1,4 +1,4 @@
 # Sample Webpage
 ---
-[home](index.html)
+[Home](index.html)
 ---
