@@ -37,6 +37,11 @@ jobs:
             echo "----"
             echo "${{ github.action_path }}"
             ls ${{ github.action_path }}
+            echo " ---"
+            echo "${{ github.workspace }}"
+            echo " ---"
+            ls ${{ github.workspace }}
 
       - name: Run Python script
-        run: python3 render.py ./source 'MarkdownBlogger Test'
+        working-directory: ${{ github.workspace }}
+        run: python3 MarkdownBlogger/render.py source 'MarkdownBlogger Test'
