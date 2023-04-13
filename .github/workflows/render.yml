@@ -24,9 +24,17 @@ jobs:
             
       - name: Echo Pwd
         run: |
+            echo "----"
             pwd
+            echo "----"
             ls
+            echo "----"
             ls ..
+            echo "----"
+            ls ../..
+            echo "----"
+            echo "${{ github.action_path }}"
+            ls ${{ github.action_path }}
 
       - name: Run Python script
         run: python3 render.py ./source 'MarkdownBlogger Test'
