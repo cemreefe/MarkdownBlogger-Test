@@ -23,3 +23,13 @@ jobs:
       run: |
         cd MarkdownBlogger
         python3 render.py ../source 'TestWebsite - MarkdownBlogger'
+        
+    - name: Commit changes
+      run: |
+        git config --global user.name 'Cemre'
+        git config --global user.email 'cemreefe@users.noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+        git checkout "${GITHUB_REF:11}"
+        git commit -A 
+        git commit -m "Automated rendering"
+        git push
