@@ -1,0 +1,22 @@
+name: Render with MarkdownBlogger
+
+on:
+  push:
+    branches: [gh-pages]
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          repository: cemreefe/MarkdownBlogger
+
+      - name: Set up Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Run Python script
+        run: python3 render.py source 'MarkdownBlogger Test' # replace with the path to the script and any command line arguments you want to pass
