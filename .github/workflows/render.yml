@@ -27,12 +27,17 @@ jobs:
       run: |
         cd MarkdownBlogger
         python3 render.py ../source 'TestWebsite - MarkdownBlogger'
+    - name: See changes 0
+      run: |
+        ls -t
+        echo "---"
+        ls -t ..
     - name: Cleanup repo
       run: |
         cd ..
         rm -r MarkdownBlogger
         echo "---"
-    - name: See changes
+    - name: See changes 1
       run: ls -t
 
         
