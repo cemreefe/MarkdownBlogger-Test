@@ -42,7 +42,7 @@ jobs:
             echo "${{ github.workspace }}"
             echo " ---"
             ls ${{ github.workspace }}
-
+            
       - name: Run Python script
-        working-directory: ${{ github.workspace }}/source # change the working directory to the root of the current repository
-        run: python3 MarkdownBlogger/render.py ../source 'MarkdownBlogger Test'
+        working-directory: ${{ github.workspace }}
+        run: python3 MarkdownBlogger/render.py ${{ github.workspace }}/source 'MarkdownBlogger Test'
