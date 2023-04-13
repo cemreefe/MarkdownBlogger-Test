@@ -22,7 +22,7 @@ jobs:
         run: |
             sudo apt-get update
             sudo apt-get install -y libxml2-dev libxslt-dev
-            pip3 install markdown jinja2
+            pip3 install markdown==3.3.4 jinja2
 
       - name: Run Python script
         run: python3 render.py source 'MarkdownBlogger Test'
