@@ -2,7 +2,8 @@ name: Render with MarkdownBlogger
 
 on:
   push:
-    branches: [ source ]
+    branches: 
+    - source
 
 jobs:
   run_script:
