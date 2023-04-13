@@ -12,6 +12,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: cemreefe/MarkdownBlogger
+          ref: main
+          submodules: recursive
 
       - name: Set up Python 3
         uses: actions/setup-python@v2
