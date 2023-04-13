@@ -23,11 +23,8 @@ jobs:
       run: |
         cd MarkdownBlogger
         python3 render.py ../source 'TestWebsite - MarkdownBlogger'
-        echo "---"
-        ls
-        echo "---"
-        ls ..
-        echo "---"
+        cd ..
+        rm -r MarkdownBlogger
         
     - name: Commit changes
       run: |
