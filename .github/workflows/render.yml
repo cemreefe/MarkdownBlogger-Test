@@ -45,4 +45,4 @@ jobs:
 
       - name: Run Python script
         working-directory: ${{ github.workspace }}/source # change the working directory to the root of the current repository
-        run: python3 ../MarkdownBlogger/render.py . 'MarkdownBlogger Test'
+        run: python3 MarkdownBlogger/render.py ../source 'MarkdownBlogger Test'
