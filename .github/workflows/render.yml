@@ -48,7 +48,9 @@ jobs:
         git rm -r '*'
     - name: Move new output into github pages branch
       run: |
-        mv outout/* ../ghp/MarkdownBlogger-Test/
+        pwd
+        ls
+        mv output/* ../ghp/MarkdownBlogger-Test/
         pwd
         ls
     - name: Look around
