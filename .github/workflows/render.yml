@@ -2,7 +2,7 @@ name: Render with MarkdownBlogger
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ source ]
 
 jobs:
   run_script:
@@ -19,12 +19,22 @@ jobs:
         pip3 install markdown==3.3.4 jinja2
     - name: Clone MarkdownBlogger
       run: git clone https://github.com/cemreefe/MarkdownBlogger
+    - name: Clone source
+      run: git clone -b source https://github.com/cemreefe/MarkdownBlogger-Test
     - name: Run MarkdownBlogger
       run: |
         cd MarkdownBlogger
-        python3 render.py ../source 'TestWebsite - MarkdownBlogger'
+        python3 render.py ../MarkdownBlogger-Test/source 'TestWebsite - MarkdownBlogger'
+    - name: Move resulting files into root
+      run: mv ../MarkdownBlogger-Test/output/* ..
+    - name: Cleanup repo
+      run: |
         cd ..
         rm -r MarkdownBlogger
+        rm -r MarkdownBlogger-Test
+        echo "---"
+    - name: See changes
+        ls -t
         
     - name: Commit changes
       run: |
