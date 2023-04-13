@@ -25,4 +25,4 @@ jobs:
             pip3 install markdown==3.3.4 jinja2
 
       - name: Run Python script
-        run: python3 render.py source 'MarkdownBlogger Test'
+        run: python3 render.py ./source 'MarkdownBlogger Test'
