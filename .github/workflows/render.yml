@@ -34,7 +34,6 @@ jobs:
         ls -t ..
     - name: Cleanup repo
       run: |
-        cd ..
         rm -r MarkdownBlogger
         echo "---"
     - name: See changes 1
