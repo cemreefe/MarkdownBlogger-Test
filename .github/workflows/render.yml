@@ -26,7 +26,7 @@ jobs:
     - name: Run MarkdownBlogger
       run: |
         cd MarkdownBlogger
-        python3 render.py ../source 'TestWebsite - MarkdownBlogger'
+        python3 render.py -i ../source -o ../output -t 'TestWebsite' -th themes/custom.css
     - name: See changes 0
       run: |
         ls -t
