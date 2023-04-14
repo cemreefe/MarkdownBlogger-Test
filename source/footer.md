@@ -1,1 +1,1 @@
-Test Website - MarkdownBlogger - 2023
+Test Website - SimplyMarkdown - 2023
