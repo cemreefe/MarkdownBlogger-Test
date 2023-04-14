@@ -20,25 +20,14 @@ jobs:
         pip3 install markdown==3.3.4 jinja2
     - name: Clone MarkdownBlogger
       run: git clone https://github.com/cemreefe/MarkdownBlogger
-    - name: Remove old output
-      run: |
-        rm -rf output
     - name: Run MarkdownBlogger
       run: |
         cd MarkdownBlogger
-        python3 render.py -i ../source -o ../output -t 'TestWebsite' -th themes/custom.css
-    - name: See changes 0
-      run: |
-        ls -t
-        echo "---"
-        ls -t ..
+        python3 render.py -i ../source -o ../output -t 'TestWebsite' -th themes/custom.css --root MarkdownBlogger-Test
     - name: Cleanup repo
       run: |
         rm -r MarkdownBlogger
-        echo "---"
-    - name: See changes 1
-      run: ls -t
-    - name: Clone github pages branch and clean it
+    - name: Clone github pages branch and clean its contents
       run: |
         cd ..
         mkdir ghp
@@ -48,18 +37,7 @@ jobs:
         git rm -r '*'
     - name: Move new output into github pages branch
       run: |
-        pwd
-        ls
         mv output/* ../ghp/MarkdownBlogger-Test/
-        pwd
-        ls
-        echo ">>"
-        ls ../ghp/MarkdownBlogger-Test/
-    - name: Look around
-      run: |
-        pwd
-        ls
-
         
     - name: Commit changes
       run: |
