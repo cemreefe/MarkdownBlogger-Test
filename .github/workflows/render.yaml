@@ -23,7 +23,7 @@ jobs:
     - name: Run SimplyMarkdown
       run: |
         cd SimplyMarkdown
-        python3 render.py -i ../source -o ../output --title 'Misty Step Blog' --css ../source/static/css/style.css --root '${{ github.event.repository.name }}' --favicon 🌫️ --rss-whitelist '/p/*'
+        python3 render.py -i ../source -o ../output --title 'Misty Step Blog' --css ../source/static/css/style.css --root 'https://mistystep.org' --favicon 🌫️ --rss-whitelist '/p/*'
     - name: Cleanup repo
       run: |
         rm -r SimplyMarkdown
