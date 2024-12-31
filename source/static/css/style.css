@@ -10,10 +10,14 @@
     font-family: 'SugarPeachy';
     src: url('/static/fonts/SugarPeachy.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'AgenorNeue';
+    src: url('/static/fonts/AgenorNeue.otf') format('opentype');
+}
 
 body {
-    background-color: firebrick;
-    font-family: Olivera, Georgia, 'Times New Roman', Times, serif;
+    background-color: darkolivegreen;
+    font-family: AgenorNeue, Georgia, 'Times New Roman', Times, serif;
     color:whitesmoke;
 }
 
@@ -27,6 +31,7 @@ h2, h3, h4, h5 {
 
 .wrapper {
     max-width: 600px;
+    margin-left: 16px;
 }
 
 a {
