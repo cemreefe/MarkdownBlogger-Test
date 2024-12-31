@@ -58,3 +58,11 @@ table {
 thead {
     font-weight: bold;
 }
+
+.postPreview {
+    border-bottom: 1px solid darkgray;
+}
+
+nav {
+    text-align: right;
+}
