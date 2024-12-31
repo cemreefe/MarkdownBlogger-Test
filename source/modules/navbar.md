@@ -1,5 +1,5 @@
 ![](/static/img/ms.png)
 
-[Home](/)
+[Home](/) | [Blog](/blog)
 
 ---
