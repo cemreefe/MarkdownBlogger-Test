@@ -25,6 +25,14 @@ h2, h3, h4, h5 {
     font-family: Calgary, Helvetica, Arial, sans-serif;
 }
 
-.content {
-    max-width: 800px;
+.wrapper {
+    max-width: 600px;
+}
+
+a {
+    color: floralwhite;
+}
+
+footer {
+    text-align: right;
 }

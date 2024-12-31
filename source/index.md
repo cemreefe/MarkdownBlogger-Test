@@ -1,6 +1,4 @@
-# Misty Step Blog 
-
-## Second Title
+# Welcome
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Vestibulum ultrices, magna ac elementum venenatis, est lorem congue nisi, id bibendum eros elit vel ipsum. 
