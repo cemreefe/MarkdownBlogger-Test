@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Calgary';
+    src: url('/static/fonts/Calgary.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Olivera';
+    src: url('/static/fonts/Olivera.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SugarPeachy';
+    src: url('/static/fonts/SugarPeachy.ttf') format('truetype');
+}
+
+body {
+    background-color: green;
+    font-family: Olivera, Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+}
+
+h1 {
+    font-family: SugarPeachy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: Calgary, Helvetica, Arial, sans-serif;
+}
