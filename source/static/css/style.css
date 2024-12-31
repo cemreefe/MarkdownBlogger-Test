@@ -36,3 +36,11 @@ a {
 footer {
     text-align: right;
 }
+
+table {
+    margin: auto;
+}
+
+thead {
+    font-weight: bold;
+}
