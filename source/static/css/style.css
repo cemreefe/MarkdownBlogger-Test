@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: firebrick;
     font-family: Olivera, Georgia, 'Times New Roman', Times, serif;
     color:whitesmoke;
 }
@@ -23,4 +23,8 @@ h1 {
 
 h2, h3, h4, h5 {
     font-family: Calgary, Helvetica, Arial, sans-serif;
+}
+
+.content {
+    max-width: 800px;
 }

@@ -1,6 +1,6 @@
-# Sample Webpage
+![](/static/img/ms.png)
 ---
 
-[Home](index.html)
+[Home](/)
 
 ---
