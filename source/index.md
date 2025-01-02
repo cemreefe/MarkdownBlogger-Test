@@ -10,7 +10,7 @@ Proud estranged father of two mischievous cats.
 
 Long time computer guru
 
-![image](https://github.com/user-attachments/assets/7505f7ca-00f5-41ab-9665-1e433fc724a1)
+![](https://github.com/user-attachments/assets/a819dc94-61c9-4fdb-8dea-a2e013b3399f)
 
 Londoner
 
@@ -22,7 +22,9 @@ Distance-istanbulite
 
 Jack-of-all trades novice artist
 
-![](https://github.com/user-attachments/assets/d6f26778-9fec-4be7-98fe-61639628a5ad)
+![image](https://github.com/user-attachments/assets/12427c08-1244-4cfe-b3ea-e7c7b53a2c24)
+
+<!-- ![](https://github.com/user-attachments/assets/d6f26778-9fec-4be7-98fe-61639628a5ad) -->
 
 Direct sunlight beneficiary
 
@@ -32,9 +34,9 @@ Green path taker
 
 ![](https://github.com/user-attachments/assets/bb73e92e-4d12-4894-8aed-3bb4494a54b3)
 
-Animation enjoyer
+Traveler
 
-Ex metin2 addict
+![](https://github.com/user-attachments/assets/35217638-4702-4cba-82f8-e3493c40489a)
 
-Chorist
+
 
