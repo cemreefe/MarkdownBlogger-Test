@@ -10,7 +10,7 @@ Proud estranged father of two mischievous cats.
 
 Long time computer guru
 
-![](https://github.com/user-attachments/assets/a819dc94-61c9-4fdb-8dea-a2e013b3399f)
+![](https://github.com/user-attachments/assets/68713035-f00d-4fb1-acb1-217229d3ca47)
 
 Londoner
 
