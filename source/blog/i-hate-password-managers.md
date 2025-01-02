@@ -1,3 +1,13 @@
+---
+emoji:  🔐
+tags:   computers
+        security
+        privacy
+date:   2025-01-02
+image:  ../static/img/blog/password-manager.png
+
+---
+
 # How I manage my passwords
 
 **I. hate. password. managers.** And you should too. Please allow me to teach you to never need them again, not before a quick rant.
