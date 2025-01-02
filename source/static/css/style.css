@@ -14,6 +14,10 @@
     font-family: 'AgenorNeue';
     src: url('/static/fonts/AgenorNeue.otf') format('opentype');
 }
+@font-face {
+    font-family: 'ChunkyRetro';
+    src: url('/static/fonts/ChunkyRetro.otf') format('opentype');
+}
 
 body {
     background-color: darkolivegreen;
@@ -22,7 +26,7 @@ body {
 }
 
 h1 {
-    font-family: SugarPeachy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: ChunkyRetro, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2, h3, h4, h5 {
