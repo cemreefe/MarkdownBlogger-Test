@@ -66,3 +66,8 @@ thead {
 nav {
     text-align: right;
 }
+
+code {
+    background-color: #3030307a;
+    padding: 2px;
+}

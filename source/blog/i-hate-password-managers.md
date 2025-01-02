@@ -5,7 +5,7 @@ tags:   computers
         privacy
 date:   2025-01-02
 image:  ../static/img/blog/password-manager.png
-
+description: I hate password managers, and you should too. Let's avoid using them and still not forget our passwords with password functions.
 ---
 
 # How I manage my passwords
@@ -26,7 +26,7 @@ If I am left without my laptop or my personal mobile device, am I to be locked o
 
 ![image](https://github.com/user-attachments/assets/d0cc9b55-a485-4dee-9d14-944555fe1802)
 
-There is something we call a "single point of failure" in engineering lingo. And a password manager is simply that. Using a password managers introduce a single point of failure into your online life. Where your logging into any other application is dependent on a shabby corporate tool.
+There is something we call a "single point of failure" in engineering lingo. And a password manager is simply that. Using a password manager introduces a single point of failure into your online life. Where your logging into any other application is dependent on a shabby corporate tool.
 
 ![image](https://github.com/user-attachments/assets/bbbeab43-4078-41e3-b235-aed9b737557c)
 
@@ -46,7 +46,7 @@ This way, when you are logging into a website, you won't need to know your passw
 
 Okay, its actually quite simple. Let me go over it with a simple example.
 
-Here's an example password function. My context is only the url of the website.
+Here's an example "password function". My context is only the url of the website.
 
 > `<number of letters in the website name + 5>.<last 3 letters of the website, reversed><last letter of the website's TLD><! if it ends with a vowel, ? otherwise><number of consonants in the website's name>`
 
