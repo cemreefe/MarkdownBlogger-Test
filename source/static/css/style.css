@@ -88,3 +88,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 5px;
 }
+
+main p:has(img) {
+    text-align: center;
+}
