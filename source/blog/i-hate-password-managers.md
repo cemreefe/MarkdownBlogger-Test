@@ -71,9 +71,7 @@ Imagine I'm signing up to `facebook.com`. I'll then have a quick think, and I'll
 
 And voila, an example password; `13.koom?4`
 
-Logging into `amnesty.org`.
-
-Here are the details as separate tables for each website:
+As a second example let's say I'm logging into `amnesty.org`.
 
 | Step                                  | Result  |
 |---------------------------------------|---------|
