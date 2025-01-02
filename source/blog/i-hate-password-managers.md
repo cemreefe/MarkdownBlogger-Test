@@ -48,34 +48,42 @@ Okay, its actually quite simple. Let me go over it with a simple example.
 
 Here's an example "password function". My context is only the url of the website.
 
-```
-<number of letters in the website name + 5>
-.
-<last 3 letters of the website, reversed>
-<last letter of the website's TLD>
-<! if it ends with a vowel, ? otherwise>
-<number of consonants in the website's name>
-```
+
+1. `<number of letters in the website name + 5>`
+2. `.`
+3. `<last 3 letters of the website, reversed>`
+4. `<last letter of the website's TLD>`
+5. `<! if it ends with a vowel, ? otherwise>`
+6. `<number of consonants in the website's name>`
+
 
 Imagine I'm signing up to `facebook.com`. I'll then have a quick think, and I'll go through these:
 
-- `number of letters in the website name + 5` = `13`
-- `.` = `.`
-- `last 3 letters of the website, reversed` = `koo`
-- `last letter of the website's TLD` = `m` (from `.com`)
-- `! if it ends with a vowel, ? otherwise` = `?`
-- `number of consonants in the website's name` = `4`
+| Step                                  | Result  |
+|---------------------------------------|---------|
+| Number of letters in the website name + 5 | `13`    |
+| `.`                                   | `.`     |
+| Last 3 letters of the website name, reversed | `koo`   |
+| Last letter of the website's TLD      | `m`     |
+| `!` if it ends with a vowel, `?` otherwise | `?`     |
+| Number of consonants in the website name | `4`     |
+| **Generated Password**                | **`13.koom?4`** |
 
 And voila, an example password; `13.koom?4`
 
 Logging into `amnesty.org`.
 
-- `number of letters in the website name + 5` = `12`
-- `.` = `.`
-- `last 3 letters of the website, reversed` = `yts`
-- `last letter of the website's TLD` = `g` (from `.org`)
-- `! if it ends with a vowel, ? otherwise` = `!` 
-- `number of consonants in the website's name` = `4` 
+Here are the details as separate tables for each website:
+
+| Step                                  | Result  |
+|---------------------------------------|---------|
+| Number of letters in the website name + 5 | `12`    |
+| `.`                                   | `.`     |
+| Last 3 letters of the website name, reversed | `yts`   |
+| Last letter of the website's TLD      | `g`     |
+| `!` if it ends with a vowel, `?` otherwise | `!`     |
+| Number of consonants in the website name | `4`     |
+| **Generated Password**                | **`12.ytsg!4`** |
 
 And voila, an example password; `12.ytsg!5`
 
