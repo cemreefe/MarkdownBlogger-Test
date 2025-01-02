@@ -1,4 +1,5 @@
 ---
+title: How I manage my passwords
 emoji:  🔐
 tags:   computers
         security
