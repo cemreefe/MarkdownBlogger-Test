@@ -38,5 +38,7 @@ Traveler
 
 ![](https://github.com/user-attachments/assets/35217638-4702-4cba-82f8-e3493c40489a)
 
+Crossword frustrato
 
+![](https://github.com/user-attachments/assets/88b0eaf4-5159-481c-853d-6fe9fd42224e)
 
