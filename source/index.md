@@ -38,4 +38,10 @@ Long time computer guru
 
 Proud estranged father of two mischievous cats.
 
-![image](https://github.com/user-attachments/assets/1ef54cdd-3952-4b68-a29b-3d036451cf19)
+![](https://github.com/user-attachments/assets/1ef54cdd-3952-4b68-a29b-3d036451cf19)
+
+# Why the name
+
+[Misty step](https://bg3.wiki/wiki/Misty%5FStep) is a conjuration spell for short-term 
+teleportation in D&D 5e, bg3 etc. Found it quite handy in BG3. I thought I would quickly 
+pivot from topic to topic in this blog too, hence I found the name suiting.
