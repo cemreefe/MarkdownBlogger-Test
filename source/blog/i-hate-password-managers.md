@@ -49,7 +49,12 @@ Okay, its actually quite simple. Let me go over it with a simple example.
 Here's an example "password function". My context is only the url of the website.
 
 ```
-<number of letters in the website name + 5>.<last 3 letters of the website, reversed><last letter of the website's TLD><! if it ends with a vowel, ? otherwise><number of consonants in the website's name>
+<number of letters in the website name + 5>
+.
+<last 3 letters of the website, reversed>
+<last letter of the website's TLD>
+<! if it ends with a vowel, ? otherwise>
+<number of consonants in the website's name>
 ```
 
 Imagine I'm signing up to `facebook.com`. I'll then have a quick think, and I'll go through these:
