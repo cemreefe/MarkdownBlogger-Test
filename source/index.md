@@ -4,14 +4,6 @@ I created this blog to be able to write freely without chipping away at the pres
 
 ## Who am I
 
-Londoner
-
-![](https://github.com/user-attachments/assets/e8a766b5-2a97-4d2c-805f-fac0429bd97c)
-
-Distance-istanbulite
-
-![](https://github.com/user-attachments/assets/afa993f6-a72c-4e4e-96ab-9b3e1b6062ab)
-
 Direct sunlight beneficiary
 
 ![](https://github.com/user-attachments/assets/0416ecbc-eb82-41dd-b3cb-9996022f9a9a)
@@ -27,6 +19,14 @@ Traveler
 Crossword frustrato
 
 ![](https://github.com/user-attachments/assets/88b0eaf4-5159-481c-853d-6fe9fd42224e)
+
+Londoner
+
+![](https://github.com/user-attachments/assets/e8a766b5-2a97-4d2c-805f-fac0429bd97c)
+
+Distance-istanbulite
+
+![](https://github.com/user-attachments/assets/afa993f6-a72c-4e4e-96ab-9b3e1b6062ab)
 
 Novice artist
 
