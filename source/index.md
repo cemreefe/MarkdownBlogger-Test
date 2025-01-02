@@ -4,14 +4,6 @@ I created this blog to be able to write freely without chipping away at the pres
 
 ## Who am I
 
-Proud estranged father of two mischievous cats.
-
-![image](https://github.com/user-attachments/assets/1ef54cdd-3952-4b68-a29b-3d036451cf19)
-
-Long time computer guru
-
-![](https://github.com/user-attachments/assets/68713035-f00d-4fb1-acb1-217229d3ca47)
-
 Londoner
 
 ![](https://github.com/user-attachments/assets/e8a766b5-2a97-4d2c-805f-fac0429bd97c)
@@ -19,12 +11,6 @@ Londoner
 Distance-istanbulite
 
 ![](https://github.com/user-attachments/assets/afa993f6-a72c-4e4e-96ab-9b3e1b6062ab)
-
-Jack-of-all trades novice artist
-
-![image](https://github.com/user-attachments/assets/12427c08-1244-4cfe-b3ea-e7c7b53a2c24)
-
-<!-- ![](https://github.com/user-attachments/assets/d6f26778-9fec-4be7-98fe-61639628a5ad) -->
 
 Direct sunlight beneficiary
 
@@ -42,3 +28,14 @@ Crossword frustrato
 
 ![](https://github.com/user-attachments/assets/88b0eaf4-5159-481c-853d-6fe9fd42224e)
 
+Novice artist
+
+![](https://github.com/user-attachments/assets/d6f26778-9fec-4be7-98fe-61639628a5ad)
+
+Long time computer guru
+
+![](https://github.com/user-attachments/assets/68713035-f00d-4fb1-acb1-217229d3ca47)
+
+Proud estranged father of two mischievous cats.
+
+![image](https://github.com/user-attachments/assets/1ef54cdd-3952-4b68-a29b-3d036451cf19)
