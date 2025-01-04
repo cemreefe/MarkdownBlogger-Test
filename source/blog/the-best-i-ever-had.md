@@ -28,7 +28,7 @@ Apparently Karl Marx stayed in the exact spot the shop is in, which is kinda coo
 
 The place is just on one of the main streets of Margate, right across market square.
 
-<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=1.3791596889495852%2C51.38851636998649%2C1.382185220718384%2C51.39004117235367&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/51.389279/1.380672">View Larger Map</a></small>
+<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=1.3791596889495852%2C51.38851636998649%2C1.382185220718384%2C51.39004117235367&amp;layer=mapnik" style="border: 1px solid black;width:100%"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/51.389279/1.380672">View Larger Map</a></small>
 
 # The best view I ever had
 
