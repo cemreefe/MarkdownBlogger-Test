@@ -33,6 +33,10 @@ h2, h3, h4, h5 {
     font-family: Calgary, Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5 {
+    color: #dfb43d;
+}
+
 .wrapper {
     max-width: 600px;
     margin-left: 8px;
