@@ -68,6 +68,7 @@ thead {
 }
 
 .postPreview {
+    padding: 1em 0em 1em;
     border-bottom: 1px solid darkgray;
 }
 
