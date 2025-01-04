@@ -1,5 +1,11 @@
 ---
-date: 2025-01-04
+title:  The best _ I ever had
+emoji:  🥇
+tags:   travel
+        experience
+        food
+date:   2025-01-04
+description: A register of places where I had the best ever x, whatever x may be.
 ---
 
 # The best _ I ever had
