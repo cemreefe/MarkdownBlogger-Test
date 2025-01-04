@@ -10,6 +10,8 @@ description: A register of places where I had the best ever x, whatever x may be
 
 # The best _ I ever had
 
+A register of places where I had the best ever x, whatever x may be.
+
 [TOC]
 
 ## The best icecream I ever had
@@ -27,3 +29,19 @@ Apparently Karl Marx stayed in the exact spot the shop is in, which is kinda coo
 The place is just on one of the main streets of Margate, right across market square.
 
 <iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=1.3791596889495852%2C51.38851636998649%2C1.382185220718384%2C51.39004117235367&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/51.389279/1.380672">View Larger Map</a></small>
+
+# The best view I ever had
+
+The best view I have ever seen in my life must be the view from my mountaineering days at uni.
+
+1. Left my tent in the middle of the night after a storm, and the sky was so clear and the moonlight was reflected on the snow, that I could put on my number 1.
+
+2. The view from the Mt. Erciyes summit, could go on my number 2.
+
+Unfortunately, I have photos of neither, and even if I did, I'm sure they wouldn't look half as impressive. Here are a few pics to give you an idea of the general vibe.
+
+![](https://github.com/user-attachments/assets/b8b6ec8f-d9e9-46ce-b195-7b82ae8344d0)
+<small>View on the trip down Mt. Erciyes</small>
+
+![](https://github.com/user-attachments/assets/4614a3f3-c002-4cd0-9eea-1660ca26ff2c)
+<small>On the way back from Aladağlar</small>
