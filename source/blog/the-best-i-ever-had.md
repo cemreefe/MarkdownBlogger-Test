@@ -28,7 +28,7 @@ Apparently Karl Marx stayed in the exact spot the shop is in, which is kinda coo
 
 The place is just on one of the main streets of Margate, right across market square.
 
-<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=1.3791596889495852%2C51.38851636998649%2C1.382185220718384%2C51.39004117235367&amp;layer=mapnik" style="border: 1px solid black;width:100%"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/51.389279/1.380672">View Larger Map</a></small>
+<iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=1.3800582289695742%2C51.38851636998649%2C1.3812866806983948%2C51.39004117235367&amp;layer=mapnik&amp;marker=51.38927877752174%2C1.3806724548339844" style="border: 1px solid black;width:100%"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.389279&amp;mlon=1.380672#map=19/51.389279/1.380672">View Larger Map</a></small>
 
 # The best view I ever had
 
@@ -41,7 +41,7 @@ The best view I have ever seen in my life must be the view from my mountaineerin
 Unfortunately, I have photos of neither, and even if I did, I'm sure they wouldn't look half as impressive. Here are a few pics to give you an idea of the general vibe.
 
 ![](https://github.com/user-attachments/assets/b8b6ec8f-d9e9-46ce-b195-7b82ae8344d0)
-<small>View on the trip down Mt. Erciyes</small>
+<small>View on the trip down Mt. Erciyes (taken with my Oneplus 5)</small>
 
 ![](https://github.com/user-attachments/assets/4614a3f3-c002-4cd0-9eea-1660ca26ff2c)
-<small>On the way back from Aladağlar</small>
+<small>On the way back from Aladağlar (taken with SONY DSC P200)</small>
