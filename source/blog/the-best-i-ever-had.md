@@ -30,7 +30,7 @@ The place is just on one of the main streets of Margate, right across market squ
 
 <iframe height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=1.3800582289695742%2C51.38851636998649%2C1.3812866806983948%2C51.39004117235367&amp;layer=mapnik&amp;marker=51.38927877752174%2C1.3806724548339844" style="border: 1px solid black;width:100%"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=51.389279&amp;mlon=1.380672#map=19/51.389279/1.380672">View Larger Map</a></small>
 
-# The best view I ever had
+## The best view I ever had
 
 The best view I have ever seen in my life must be the view from my mountaineering days at uni.
 
