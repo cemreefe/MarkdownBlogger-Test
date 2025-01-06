@@ -104,4 +104,5 @@ a.highlighted {
 
 find-href { 
     text-decoration: underline;
+    cursor: pointer;
 }
