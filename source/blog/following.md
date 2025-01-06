@@ -22,40 +22,40 @@ Writes about software and life. Likes to experiment with interesting new concept
 
 Some example projects/posts to give an idea of what they do
 
-- Directory of small blogs https://blogs.hn/#blogs
-- Scrapscript https://scrapscript.org/ (I still don't understand it but I will, hopefully)
-- Better spreadsheets https://taylor.town/better-spreadsheets
-- Your next two zeroes https://taylor.town/next-two-zeroes
-- https://taylor.town/harpsichord
+- Directory of small blogs [blogs.hn](https://blogs.hn/#blogs)
+- Scrapscript [scrapscript.org](https://scrapscript.org/) (I still don't understand it but I will, hopefully)
+- Better spreadsheets [taylor.town/better-spreadsheets](https://taylor.town/better-spreadsheets)
+- Your next two zeroes [taylor.town/next-two-zeroes](taylor.town/next-two-zeroes)
+- [taylor.town/harpsichord](https://taylor.town/harpsichord)
 
-Github: https://github.com/surprisetalk
-RSS: https://taylor.town/feed.xml#rss
+Github: [github.com/surprisetalk](https://github.com/surprisetalk)
+RSS: [taylor.town/feed.xml](https://taylor.town/feed.xml#rss)
 
 ## Manuel Maruale
 
-https://manuelmoreale.com/#blog
+<https://manuelmoreale.com/#blog>
 
 What they do:
-- People and blogs series https://peopleandblogs.com/#newsletter
+- People and blogs series <https://peopleandblogs.com/#newsletter>
 
-Their index of blogs https://manuelmoreale.com/blogroll#blogs
-RSS: https://manuelmoreale.com/feed/rss#rss
+Their index of blogs <https://manuelmoreale.com/blogroll#blogs>
+RSS: <https://manuelmoreale.com/feed/rss#rss>
 
 ## Nolen Royalty
 
-https://eieio.games/#blog
+<https://eieio.games/#blog>
 
 Creates games in unorthodox places & other fun projects.
 
 Notable:
-- stranger.video (no-blink game)
-- Flappy Dird, flappy bird on macos finder https://eieio.games/blog/flappy-bird-in-macos-finder/
-- Google sheets adventure https://eieio.games/blog/realtime-google-sheet/
+- <stranger.video> (no-blink game)
+- Flappy Dird, flappy bird on macos finder <https://eieio.games/blog/flappy-bird-in-macos-finder/>
+- Google sheets adventure <https://eieio.games/blog/realtime-google-sheet/>
 
 ## Diamond Geezer
 
 Extreme-blogger. London enthusiast. His blog is a holy encyplopedia of everything London. Old chap, legend. Blog 
 is 22 yrs old and counting. 
 
-https://diamondgeezer.blogspot.com/#blog
-https://feeds.feedburner.com/blogspot/HcFb#rss
+<https://diamondgeezer.blogspot.com/#blog>
+<https://feeds.feedburner.com/blogspot/HcFb#rss>
