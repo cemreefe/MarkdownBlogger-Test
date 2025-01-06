@@ -88,6 +88,15 @@ Stackexchange cofounder. Seasoned dev, rarely writes anymore. Has some good gems
 
 <https://blog.codinghorror.com/rss/#rss>
 
+## Nicolas Nova †
+
+Anthropologist, design researcher.
+
+Blog in english <https://www.nicolasnova.net/pasta-and-vinegar#blog>
+
+Blog in french <https://www.nicolasnova.net/carnet#blog>
+
+
 ---
 
 ! include auto_rss
