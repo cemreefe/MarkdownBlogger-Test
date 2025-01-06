@@ -1,3 +1,3 @@
 ![](/static/img/ms.png)
 
-[Home](/) | [Blog](/blog) | [RSS](/rss.xml)
+[Home](/) | [Blog](/blog) | [Archive](/archive) | [RSS](/rss.xml)
