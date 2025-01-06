@@ -53,8 +53,8 @@ Creates games in unorthodox places & other fun projects.
 
 Notable:
 - <https://stranger.video> (no-blink game)
-- Flappy Dird, flappy bird on macos finder <https://eieio.games/blog/flappy-bird-in-macos-finder/>
-- Google sheets adventure <https://eieio.games/blog/realtime-google-sheet/>
+- [Flappy Dird, flappy bird on macos finder](https://eieio.games/blog/flappy-bird-in-macos-finder)
+- [Google sheets adventure](https://eieio.games/blog/realtime-google-sheet)
 
 ## Diamond Geezer
 
