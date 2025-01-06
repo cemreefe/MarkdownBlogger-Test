@@ -9,17 +9,20 @@
     });
   });
 </script>
+
 <!-- Highlight tagged links -->
 <script>
-  document.querySelectorAll('find-href').forEach(tag => {
-    tag.addEventListener('click', () => {
-      const searchString = tag.textContent.trim();
-      document.querySelectorAll('a').forEach(link => {
-        if (link.href.includes(searchString)) {
-          link.classList.add('highlighted');
-        } else {
-          link.classList.remove('highlighted');
-        }
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('find-href').forEach(tag => {
+      tag.addEventListener('click', () => {
+        const searchString = tag.textContent.trim();
+        document.querySelectorAll('a').forEach(link => {
+          if (link.href.includes(searchString)) {
+            link.classList.add('highlighted');
+          } else {
+            link.classList.remove('highlighted');
+          }
+        });
       });
     });
   });
