@@ -69,7 +69,7 @@ is 22 yrs old and counting.
 
 Alex Tim (<- mitxela) has many interesting projects. Love that they're not limited to software but venture on hardware.
 
-Loved their process of creating a thermal paper polaroid. <https://mitxela.com/projects/thermal_paper_polaroid> I think 
+Loved their process of [creating a thermal paper polaroid](https://mitxela.com/projects/thermal_paper_polaroid). I think 
 he inspired the current generation of thermal paper toy cameras (one of which I immediately bought as soon as I knew they
 existed). 
 
