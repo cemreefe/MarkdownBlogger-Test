@@ -11,10 +11,12 @@ of having an rss feed to stay in my reading rotation.
 
 Legend:
 I'm tagging links in this article with pound/number sign tips. 
-- <find-href>#rss</find-href>: self-explanatory, really.
-- <find-href>#blog</find-href>: a person's blog
-- <find-href>#blogs</find-href>: a person's index of blogs they read/follow
-- <find-href>#newsletter</find-href>: a newsletter they may be curating
+<ul>
+<li> <find-href>#rss</find-href>: self-explanatory, really. </li>
+<li> <find-href>#blog</find-href>: a person's blog </li>
+<li> <find-href>#blogs</find-href>: a person's index of blogs they read/follow </li>
+<li> <find-href>#newsletter</find-href>: a newsletter they may be curating </li>
+</ul>
 
 ## Taylor Troesh
 
@@ -29,6 +31,7 @@ Some example projects/posts to give an idea of what they do
 - [taylor.town/harpsichord](https://taylor.town/harpsichord)
 
 Github: [github.com/surprisetalk](https://github.com/surprisetalk)
+
 RSS: [taylor.town/feed.xml](https://taylor.town/feed.xml#rss)
 
 ## Manuel Maruale
@@ -39,6 +42,7 @@ What they do:
 - People and blogs series <https://peopleandblogs.com/#newsletter>
 
 Their index of blogs <https://manuelmoreale.com/blogroll#blogs>
+
 RSS: <https://manuelmoreale.com/feed/rss#rss>
 
 ## Nolen Royalty
@@ -58,6 +62,7 @@ Extreme-blogger. London enthusiast. His blog is a holy encyplopedia of everythin
 is 22 yrs old and counting. 
 
 <https://diamondgeezer.blogspot.com/#blog>
+
 <https://feeds.feedburner.com/blogspot/HcFb#rss>
 
 <!-- Testing something -->
