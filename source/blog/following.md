@@ -76,9 +76,9 @@ existed).
 Another favourite of mine from their projects is the UV Protection amulet that inspires me to build a fantasy world where 
 every phenomenon actually has a scientific explanation <https://mitxela.com/projects/amulet>.
 
-https://mitxela.com/#blog
+<https://mitxela.com/#blog>
 
-https://mitxela.com/feed.xml#rss
+<https://mitxela.com/feed.xml#rss>
 
 ---
 
