@@ -90,33 +90,4 @@ https://blog.codinghorror.com/rss/#rss
 
 ---
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-  // Base URL for the RSS reader
-  const baseUrl = 'https://rss-reader.dutl.uk/?feeds=';
-
-  // Select all links on the page
-  const links = document.querySelectorAll('a');
-
-  // Filter links ending with #rss
-  const rssLinks = Array.from(links)
-    .map(link => link.href)
-    .filter(href => href.endsWith('#rss'));
-
-  // Encode the links and join them with commas
-  const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
-
-  // Construct the final URL
-  const rssReaderUrl = `${baseUrl}${encodedLinks}&ttl=600&blocklist=`;
-
-  // Output the URL (you can replace this with any other action)
-  console.log(rssReaderUrl);
-
-  // Optionally display the link in the page (e.g., append it to the body)
-  const displayLink = document.createElement('a');
-  displayLink.href = rssReaderUrl;
-  displayLink.textContent = 'Auto-Generated RSS Reader Link';
-  displayLink.target = '_blank';
-  document.querySelector('main').appendChild(displayLink);
-});
-</script>
+! include auto_rss
