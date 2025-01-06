@@ -80,6 +80,14 @@ every phenomenon actually has a scientific explanation <https://mitxela.com/proj
 
 <https://mitxela.com/feed.xml#rss>
 
+## Jeff Atwood
+
+Stackexchange cofounder. Seasoned dev, rarely writes anymore. Has some good gems on his blog (live since 2004).
+
+https://blog.codinghorror.com/#blog
+
+https://blog.codinghorror.com/rss/#rss
+
 ---
 
 <script>
