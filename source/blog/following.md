@@ -14,7 +14,7 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 <ul>
 <li> <find-href>#rss</find-href>: self-explanatory, really. </li>
 <li> <find-href>#blog</find-href>: a person's blog </li>
-<li> <find-href>#blogs</find-href>: a person's index of blogs they read/follow </li>
+<li> <find-href>#roll</find-href>: a person's index of blogs they read/follow </li>
 <li> <find-href>#newsletter</find-href>: a newsletter they may be curating </li>
 </ul>
 
@@ -24,7 +24,7 @@ Writes about software and life. Likes to experiment with interesting new concept
 
 Some example projects/posts to give an idea of what they do
 
-- Directory of small blogs [blogs.hn](https://blogs.hn/#blogs)
+- Directory of small blogs [blogs.hn](https://blogs.hn/#roll)
 - Scrapscript [scrapscript.org](https://scrapscript.org/) (I still don't understand it but I will, hopefully)
 - Better spreadsheets [taylor.town/better-spreadsheets](https://taylor.town/better-spreadsheets)
 - Your next two zeroes [taylor.town/next-two-zeroes](taylor.town/next-two-zeroes)
@@ -41,7 +41,7 @@ RSS: [taylor.town/feed.xml](https://taylor.town/feed.xml#rss)
 What they do:
 - People and blogs series <https://peopleandblogs.com/#newsletter>
 
-Their index of blogs <https://manuelmoreale.com/blogroll#blogs>
+Their index of blogs <https://manuelmoreale.com/blogroll#roll>
 
 RSS: <https://manuelmoreale.com/feed/rss#rss>
 
@@ -95,6 +95,10 @@ Anthropologist, design researcher.
 Blog in english <https://www.nicolasnova.net/pasta-and-vinegar#blog>
 
 Blog in french <https://www.nicolasnova.net/carnet#blog>
+
+## Anne-Laure Le Cunff
+
+Mindfulness at work <https://nesslabs.com/#blog>
 
 
 ---
