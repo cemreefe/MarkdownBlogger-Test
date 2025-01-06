@@ -65,18 +65,20 @@ is 22 yrs old and counting.
 
 <https://feeds.feedburner.com/blogspot/HcFb#rss>
 
-<!-- Testing something -->
-<script>
-  document.querySelectorAll('find-href').forEach(tag => {
-    tag.addEventListener('click', () => {
-      const searchString = tag.textContent.trim();
-      document.querySelectorAll('a').forEach(link => {
-        if (link.href.includes(searchString)) {
-          link.classList.add('highlighted');
-        } else {
-          link.classList.remove('highlighted');
-        }
-      });
-    });
-  });
-</script>
+## Mitxela
+
+Alex Tim (<- mitxela) has many interesting projects. Love that they're not limited to software but venture on hardware.
+
+Loved their process of creating a thermal paper polaroid. <https://mitxela.com/projects/thermal_paper_polaroid> I think 
+he inspired the current generation of thermal paper toy cameras (one of which I immediately bought as soon as I knew they
+existed). 
+
+Another favourite of mine from their projects is the UV Protection amulet that inspires me to build a fantasy world where 
+every phenomenon actually has a scientific explanation <https://mitxela.com/projects/amulet>.
+
+https://mitxela.com/#blog
+
+https://mitxela.com/feed.xml#rss
+
+
+
