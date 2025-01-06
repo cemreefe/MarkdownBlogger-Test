@@ -82,71 +82,33 @@ every phenomenon actually has a scientific explanation <https://mitxela.com/proj
 
 ---
 
-<style>
-  #app * {
-    color: whitesmoke;
-  }
-  #app .post-title {
-    color: #fac100 !important;
-  }
-</style>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Base URL for the RSS reader
-    const baseUrl = 'https://rss-reader.dutl.uk/?feeds=';
+  // Base URL for the RSS reader
+  const baseUrl = 'https://rss-reader.dutl.uk/?feeds=';
 
-    // Select all links on the page
-    const links = document.querySelectorAll('a');
+  // Select all links on the page
+  const links = document.querySelectorAll('a');
 
-    // Filter links ending with #rss
-    const rssLinks = Array.from(links)
-      .map(link => link.href)
-      .filter(href => href.endsWith('#rss'));
+  // Filter links ending with #rss
+  const rssLinks = Array.from(links)
+    .map(link => link.href)
+    .filter(href => href.endsWith('#rss'));
 
-    // Encode the links and join them with commas
-    const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
+  // Encode the links and join them with commas
+  const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
 
-    // Construct the final URL
-    const rssReaderUrl = `${baseUrl}${encodedLinks}&ttl=600&blocklist=`;
+  // Construct the final URL
+  const rssReaderUrl = `${baseUrl}${encodedLinks}&ttl=600&blocklist=`;
 
-    // Output the URL (you can replace this with any other action)
-    console.log(rssReaderUrl);
+  // Output the URL (you can replace this with any other action)
+  console.log(rssReaderUrl);
 
-    // Create the link to the RSS reader
-    const displayLink = document.createElement('a');
-    displayLink.href = rssReaderUrl;
-    displayLink.textContent = '📶 Auto-Generated RSS Reader Link';
-    displayLink.target = '_blank';
-    document.querySelector('main').appendChild(displayLink);
-    
-    // Add a button to trigger the iframe creation
-    const button = document.createElement('button');
-    button.textContent = 'Load feed in iframe';
-    document.querySelector('main').appendChild(button);
-
-    // Event listener for button click to create the iframe and the link
-    button.addEventListener('click', function () {
-      // Create the iframe container with resizable functionality
-      const iframeContainer = document.createElement('div');
-      iframeContainer.style.resize = 'vertical';
-      iframeContainer.style.overflow = 'auto';
-      iframeContainer.style.width = '100%';
-      iframeContainer.style.height = '600px'; // Initial height
-      iframeContainer.style.marginTop = '1em';
-
-      // Create the iframe
-      const iframe = document.createElement('iframe');
-      iframe.src = rssReaderUrl;
-      iframe.width = '100%';
-      iframe.height = '100%'; // Make iframe fill the container
-      iframe.frameBorder = '0';
-
-      // Append the iframe to the container
-      iframeContainer.appendChild(iframe);
-      // Append the iframe container and the link to the page
-      document.querySelector('main').appendChild(iframeContainer);
-    });
-  });
+  // Optionally display the link in the page (e.g., append it to the body)
+  const displayLink = document.createElement('a');
+  displayLink.href = rssReaderUrl;
+  displayLink.textContent = 'Auto-Generated RSS Reader Link';
+  displayLink.target = '_blank';
+  document.querySelector('main').appendChild(displayLink);
+});
 </script>
-
-
