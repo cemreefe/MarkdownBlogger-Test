@@ -11,10 +11,10 @@ of having an rss feed to stay in my reading rotation.
 
 Legend:
 I'm tagging links in this article with pound/number sign tips. 
-- #rss : self-explanatory, really.
-- #blog: a person's blog
-- #blogs: a person's index of blogs they read/follow
-- #newsletter: a newsletter they may be curating
+- <find-href>#rss</find-href>: self-explanatory, really.
+- <find-href>#blog</find-href>: a person's blog
+- <find-href>#blogs</find-href>: a person's index of blogs they read/follow
+- <find-href>#newsletter</find-href>: a newsletter they may be curating
 
 ## Taylor Troesh
 
@@ -59,3 +59,24 @@ is 22 yrs old and counting.
 
 <https://diamondgeezer.blogspot.com/#blog>
 <https://feeds.feedburner.com/blogspot/HcFb#rss>
+
+<!-- Testing something -->
+<style>
+  a.highlighted {
+    background-color: darkorchid;
+  }
+</style>
+<script>
+  document.querySelectorAll('find-href').forEach(tag => {
+    tag.addEventListener('click', () => {
+      const searchString = tag.textContent.trim();
+      document.querySelectorAll('a').forEach(link => {
+        if (link.href.includes(searchString)) {
+          link.classList.add('highlighted');
+        } else {
+          link.classList.remove('highlighted');
+        }
+      });
+    });
+  });
+</script>
