@@ -110,3 +110,7 @@ find-href {
     text-decoration: underline;
     cursor: pointer;
 }
+
+blockquote {
+    font-style: italic;
+}
