@@ -10,7 +10,7 @@ so that I won't have to rely on Twitter to remember they exist, nor have to give
 of having an rss feed to stay in my reading rotation.
 
 Legend:
-I'm tagging links in this article with pound/number sign tips. Click on these tags to highlight all tagged links.
+I'm tagging links in this article with pound/number sign tips. Click on these tags to highlight all tagged links (Requires JS).
 <ul>
 <li> <find-href>#rss</find-href>: self-explanatory, really. </li>
 <li> <find-href>#blog</find-href>: a person's blog </li>
@@ -66,14 +66,6 @@ is 22 yrs old and counting.
 <https://feeds.feedburner.com/blogspot/HcFb#rss>
 
 <!-- Testing something -->
-<style>
-  a.highlighted {
-    background-color: darkorchid;
-  }
-  find-href { 
-    text-decoration: underline;
-  }
-</style>
 <script>
   document.querySelectorAll('find-href').forEach(tag => {
     tag.addEventListener('click', () => {
