@@ -7,10 +7,6 @@
     src: url('/static/fonts/Olivera.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'SugarPeachy';
-    src: url('/static/fonts/SugarPeachy.otf') format('opentype');
-}
-@font-face {
     font-family: 'AgenorNeue';
     src: url('/static/fonts/AgenorNeue.otf') format('opentype');
 }
@@ -26,7 +22,7 @@ body {
 }
 
 h1 {
-    font-family: SugarPeachy, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2, h3, h4, h5 {
