@@ -20,6 +20,6 @@ Legend:
 
 [Story of your life](https://en.wikipedia.org/wiki/Story_of_Your_Life) the book the movie "arrival" was based on. #bookRec
 
-<https://en.wikipedia.org/wiki/Great_Filter> #shortRead
+<https://en.wikipedia.org/wiki/Great_Filter> <tag>#shortRead</tag>
 
-<https://waitbutwhy.com/2014/05/fermi-paradox.html> #shortRead
+<https://waitbutwhy.com/2014/05/fermi-paradox.html> <tag>#shortRead</tag>
