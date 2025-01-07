@@ -3,8 +3,11 @@
 Notes I take from blogs I read
 
 Legend:
-- #bookRec : Book recommendations
-- #shortRead
+
+<ul>
+  <li><find-tag>#bookRec</find-tag>: Book recommendations</li>
+  <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
+</ul>
 
 #### From <https://taylor.town/pardon-2024>
 
