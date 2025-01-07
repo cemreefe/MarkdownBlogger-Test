@@ -102,7 +102,7 @@ main p:has(img) {
     text-align: center;
 }
 
-a.highlighted {
+.highlighted {
     background-color: darkorchid;
 }
 
