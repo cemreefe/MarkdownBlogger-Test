@@ -16,3 +16,10 @@ Legend:
 <https://www.efavdb.com/math-of-parking-tickets> <tag>#shortRead</tag>
 
 
+### From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
+
+[Story of your life](https://en.wikipedia.org/wiki/Story_of_Your_Life) the book the movie "arrival" was based on. #bookRec
+
+<https://en.wikipedia.org/wiki/Great_Filter> #shortRead
+
+<https://waitbutwhy.com/2014/05/fermi-paradox.html> #shortRead
