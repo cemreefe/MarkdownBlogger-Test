@@ -1,31 +1,38 @@
 <!-- Finds all links tagged with #rss and creates an rss feed -->
+<!-- If current page has ?feed, go to feed -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-  // Base URL for the RSS reader
-  const baseUrl = 'https://rss-reader.dutl.uk/?feeds=';
+    // Base URL for the RSS reader
+    const baseUrl = 'https://rss-reader.dutl.uk/?feeds=';
 
-  // Select all links on the page
-  const links = document.querySelectorAll('a');
+    // Select all links on the page
+    const links = document.querySelectorAll('a');
 
-  // Filter links ending with #rss
-  const rssLinks = Array.from(links)
-    .map(link => link.href)
-    .filter(href => href.endsWith('#rss'));
+    // Filter links ending with #rss
+    const rssLinks = Array.from(links)
+      .map(link => link.href)
+      .filter(href => href.endsWith('#rss'));
 
-  // Encode the links and join them with commas
-  const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
+    // Encode the links and join them with commas
+    const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
 
-  // Construct the final URL
-  const rssReaderUrl = `${baseUrl}${encodedLinks}&ttl=600&blocklist=`;
+    // Construct the final URL
+    const rssReaderUrl = `${baseUrl}${encodedLinks}&ttl=600&blocklist=`;
 
-  // Output the URL (you can replace this with any other action)
-  console.log(rssReaderUrl);
+    // Output the URL (you can replace this with any other action)
+    console.log(rssReaderUrl);
 
-  // Optionally display the link in the page (e.g., append it to the body)
-  const displayLink = document.createElement('a');
-  displayLink.href = rssReaderUrl;
-  displayLink.textContent = '📶 Auto-Generated RSS Reader Link';
-  displayLink.target = '_blank';
-  document.querySelector('main').appendChild(displayLink);
-});
+    // Optionally display the link in the page (e.g., append it to the body)
+    const displayLink = document.createElement('a');
+    displayLink.href = rssReaderUrl;
+    displayLink.textContent = 'Auto-Generated RSS Reader Link';
+    displayLink.target = '_blank';
+    document.querySelector('main').appendChild(displayLink);
+
+    // Check if the current page URL contains '?feed'
+    if (window.location.search.includes('?feed')) {
+      // Automatically redirect to the RSS reader link
+      window.location.href = rssReaderUrl;
+    }
+  });
 </script>
