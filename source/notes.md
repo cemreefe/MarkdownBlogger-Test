@@ -23,3 +23,7 @@ Legend:
 <https://en.wikipedia.org/wiki/Great_Filter> <tag>#shortRead</tag>
 
 <https://waitbutwhy.com/2014/05/fermi-paradox.html> <tag>#shortRead</tag>
+
+### Twitter
+
+[Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #bookRec
