@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'SugarPeachy';
-    src: url('/static/fonts/SugarPeachy.ttf') format('truetype');
+    src: url('/static/fonts/SugarPeachy.otf') format('opentype');
 }
 @font-face {
     font-family: 'AgenorNeue';
