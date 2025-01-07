@@ -1,1 +1,5 @@
-![](/static/img/ms-sign.png)
+<style>
+  p:has(img.sign) {text-align: left}
+</style>
+
+![](/static/img/ms-sign.png){class="sign"}
