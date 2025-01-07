@@ -9,14 +9,18 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
-### From <https://taylor.town/pardon-2024>
+### 2025-01-06
+
+From <https://taylor.town/pardon-2024>
 
 [The High Cost of Free Parking](https://en.wikipedia.org/wiki/The_High_Cost_of_Free_Parking) - Donald Shoup <tag>#bookRec</tag> from 
 
 <https://www.efavdb.com/math-of-parking-tickets> <tag>#shortRead</tag>
 
 
-### From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
+### 2025-01-07
+
+From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
 
 [Story of your life](https://en.wikipedia.org/wiki/Story_of_Your_Life) the book the movie "arrival" was based on. #bookRec
 
@@ -24,6 +28,6 @@ Legend:
 
 <https://waitbutwhy.com/2014/05/fermi-paradox.html> <tag>#shortRead</tag>
 
-### Twitter
+### 2025-01-07x2
 
-[Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #bookRec
+[Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #<tag>#bookRec</tag>
