@@ -10,10 +10,10 @@
   });
 </script>
 
-<!-- Highlight tagged links -->
+<!-- Highlight tagged links and texts -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('find-href').forEach(tag => {
+    document.querySelectorAll('find-tag').forEach(tag => {
       tag.addEventListener('click', () => {
         const searchString = tag.textContent.trim();
         document.querySelectorAll('a').forEach(link => {
@@ -21,6 +21,13 @@
             link.classList.add('highlighted');
           } else {
             link.classList.remove('highlighted');
+          }
+        });
+        document.querySelectorAll('tag').forEach(tag => {
+          if (tag.innerText.includes(searchString)) {
+            tag.classList.add('highlighted');
+          } else {
+            tag.classList.remove('highlighted');
           }
         });
       });
