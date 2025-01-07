@@ -20,6 +20,8 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 
 ## Taylor Troesh
 
+<https://taylor.town/#blog>
+
 Writes about software and life. Likes to experiment with interesting new concepts. Passionate about their projects. Writes a lot.
 
 Some example projects/posts to give an idea of what they do
