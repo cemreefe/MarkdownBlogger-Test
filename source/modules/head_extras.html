@@ -13,52 +13,50 @@
 <!-- Highlight tagged links and texts -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    console.log('DOM fully loaded and parsed');
-
-    // Check if 'find-tag' elements are being selected
-    const findTags = document.querySelectorAll('find-tag');
-    console.log('find-tag elements found:', findTags);
-
+    // Select all elements with the class 'find-tag'
+    const findTags = document.querySelectorAll('.find-tag');
+    
     findTags.forEach(tag => {
-      console.log('Adding click event listener to:', tag);
-
-      tag.addEventListener('click', () => {
-        const searchString = tag.textContent.trim();
-        console.log('Clicked tag text:', searchString);
-
-        // Check all 'a' elements
-        const links = document.querySelectorAll('a');
-        console.log('Number of links found:', links.length);
-
-        links.forEach(link => {
-          console.log('Checking link:', link.href);
-
-          if (link.href.includes(searchString)) {
-            console.log('Highlighting link:', link.href);
-            link.classList.add('highlighted');
-          } else {
-            link.classList.remove('highlighted');
-          }
-        });
-
-        // Check all 'tag' elements
-        const tags = document.querySelectorAll('tag');
-        console.log('Number of tag elements found:', tags.length);
-
-        tags.forEach(tag => {
-          console.log('Checking tag text:', tag.innerText);
-
-          if (tag.innerText.includes(searchString)) {
-            console.log('Highlighting tag:', tag.innerText);
-            tag.classList.add('highlighted');
-          } else {
-            tag.classList.remove('highlighted');
-          }
-        });
-      });
+      // Dynamically add the onclick handler
+      tag.onclick = function () {
+        handleTagClick(tag); // Calling the function on click
+      };
     });
   });
+
+  // Define the function that handles the click event
+  function handleTagClick(element) {
+    console.log('Clicked element:', element);
+
+    const searchString = element.textContent.trim();
+    console.log('Search string:', searchString);
+
+    const links = document.querySelectorAll('a');
+    console.log('Number of links found:', links.length);
+
+    links.forEach(link => {
+      if (link.href.includes(searchString)) {
+        console.log('Highlighting link:', link.href);
+        link.classList.add('highlighted');
+      } else {
+        link.classList.remove('highlighted');
+      }
+    });
+
+    const tags = document.querySelectorAll('.tag'); // Ensure you're using a valid class or selector
+    console.log('Number of tag elements found:', tags.length);
+
+    tags.forEach(tag => {
+      if (tag.textContent.includes(searchString)) {
+        console.log('Highlighting tag:', tag.textContent);
+        tag.classList.add('highlighted');
+      } else {
+        tag.classList.remove('highlighted');
+      }
+    });
+  }
 </script>
+
 
 
 <!-- Google tag (gtag.js) -->
