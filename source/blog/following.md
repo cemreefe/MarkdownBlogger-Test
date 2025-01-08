@@ -106,19 +106,19 @@ Mindfulness at work <https://nesslabs.com/#blog>
 
 Botwiki founder, creator with high throughput. 
 
-https://stefanbohacek.com/blog#blog
+<https://stefanbohacek.com/blog#blog>
 
-https://stefanbohacek.com/blogroll/#roll
+<https://stefanbohacek.com/blogroll/#roll>
 
-https://stefanbohacek.com/feed/#rss
+<https://stefanbohacek.com/feed/#rss>
 
 ## Ryan Barrett
 
 Good work on tying the web together, including bridgy fed.
 
-https://snarfed.org/#blog
+<https://snarfed.org/#blog>
 
-https://snarfed.org/feed#rss
+<https://snarfed.org/feed#rss>
 
 
 ---
