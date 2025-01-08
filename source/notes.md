@@ -31,3 +31,7 @@ From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
 ### 2025-01-07x2
 
 [Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #<tag>#bookRec</tag>
+
+### 2025-01-08
+
+https://moxie.org/2024/09/23/a-good-engineer.html <tag>#shortRead</tag> from @boramalper@mastodon.social
