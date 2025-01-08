@@ -102,7 +102,27 @@ Blog in french <https://www.nicolasnova.net/carnet#blog>
 
 Mindfulness at work <https://nesslabs.com/#blog>
 
+## Stefan Bohacek
+
+Botwiki founder, creator with high throughput. 
+
+https://stefanbohacek.com/blog#blog
+
+https://stefanbohacek.com/blogroll/#roll
+
+https://stefanbohacek.com/feed/#rss
+
+## Ryan Barrett
+
+Good work on tying the web together, including bridgy fed.
+
+https://snarfed.org/#blog
+
+https://snarfed.org/feed#rss
+
 
 ---
+
+All #rss tags in this page are included in;
 
 ! include auto_rss
