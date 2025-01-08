@@ -40,3 +40,26 @@ From <https://taylor.town/pardon-2024>
 [The High Cost of Free Parking](https://en.wikipedia.org/wiki/The_High_Cost_of_Free_Parking) - Donald Shoup <tag>#bookRec</tag> from 
 
 <https://www.efavdb.com/math-of-parking-tickets> <tag>#shortRead</tag>
+
+<script>
+// If a specific note is linked, give the next note a 100vw top padding
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the current h3 element based on the URL fragment
+    const currentH3Id = window.location.hash.substring(1); // Get the part after the #
+    const currentH3 = document.getElementById(currentH3Id);
+
+    if (currentH3) {
+        let nextElement = currentH3.nextElementSibling;
+
+        // Keep looking for the next h3 until one is found
+        while (nextElement && nextElement.tagName !== "H3") {
+            nextElement = nextElement.nextElementSibling;
+        }
+
+        if (nextElement && nextElement.tagName === "H3") {
+            // Set the margin-top of the next h3 to 100vh
+            nextElement.style.marginTop = "100vh";
+        }
+    }
+});
+</script>
