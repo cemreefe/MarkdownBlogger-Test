@@ -13,50 +13,27 @@
 <!-- Highlight tagged links and texts -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Select all elements with the class 'find-tag'
-    const findTags = document.querySelectorAll('.find-tag');
-    
-    findTags.forEach(tag => {
-      // Dynamically add the onclick handler
-      tag.onclick = function () {
-        handleTagClick(tag); // Calling the function on click
-      };
+    document.querySelectorAll('find-tag').forEach(tag => {
+      tag.addEventListener('click', () => {
+        const searchString = tag.textContent.trim();
+        document.querySelectorAll('a').forEach(link => {
+          if (link.href.includes(searchString)) {
+            link.classList.add('highlighted');
+          } else {
+            link.classList.remove('highlighted');
+          }
+        });
+        document.querySelectorAll('tag').forEach(tag => {
+          if (tag.innerText.includes(searchString)) {
+            tag.classList.add('highlighted');
+          } else {
+            tag.classList.remove('highlighted');
+          }
+        });
+      });
     });
   });
-
-  // Define the function that handles the click event
-  function handleTagClick(element) {
-    console.log('Clicked element:', element);
-
-    const searchString = element.textContent.trim();
-    console.log('Search string:', searchString);
-
-    const links = document.querySelectorAll('a');
-    console.log('Number of links found:', links.length);
-
-    links.forEach(link => {
-      if (link.href.includes(searchString)) {
-        console.log('Highlighting link:', link.href);
-        link.classList.add('highlighted');
-      } else {
-        link.classList.remove('highlighted');
-      }
-    });
-
-    const tags = document.querySelectorAll('.tag'); // Ensure you're using a valid class or selector
-    console.log('Number of tag elements found:', tags.length);
-
-    tags.forEach(tag => {
-      if (tag.textContent.includes(searchString)) {
-        console.log('Highlighting tag:', tag.textContent);
-        tag.classList.add('highlighted');
-      } else {
-        tag.classList.remove('highlighted');
-      }
-    });
-  }
 </script>
-
 
 
 <!-- Google tag (gtag.js) -->
@@ -67,16 +44,4 @@
   gtag('js', new Date());
 
   gtag('config', 'G-BE6M913MKW');
-</script>
-
-<!-- Linkify Mastodon usernames -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const mastodonPattern = /@([\w.-]+)@([\w.-]+)/g;
-
-    document.body.innerHTML = document.body.innerHTML.replace(mastodonPattern, function (match, username, instance) {
-      const url = `https://${instance}/@${username}`;
-      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${match}</a>`;
-    });
-  });
 </script>
