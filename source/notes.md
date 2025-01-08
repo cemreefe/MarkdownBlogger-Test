@@ -34,4 +34,10 @@ From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
 
 ### 2025-01-08
 
-https://moxie.org/2024/09/23/a-good-engineer.html <tag>#shortRead</tag> from @boramalper@mastodon.social
+<https://moxie.org/2024/09/23/a-good-engineer.html> <tag>#shortRead</tag> from @boramalper@mastodon.social
+
+### 2025-01-08x2
+
+Open source & free (!!!) map provider.
+
+<https://openfreemap.org/> & <https://openfreemap.org/quick_start/>
