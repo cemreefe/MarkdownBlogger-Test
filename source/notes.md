@@ -9,14 +9,20 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
-### 2025-01-06
+### 2025-01-08x2
 
-From <https://taylor.town/pardon-2024>
+Open source & free (!!!) map provider.
 
-[The High Cost of Free Parking](https://en.wikipedia.org/wiki/The_High_Cost_of_Free_Parking) - Donald Shoup <tag>#bookRec</tag> from 
+<https://openfreemap.org/> & <https://openfreemap.org/quick_start/>
 
-<https://www.efavdb.com/math-of-parking-tickets> <tag>#shortRead</tag>
+### 2025-01-08
 
+<https://moxie.org/2024/09/23/a-good-engineer.html> <tag>#shortRead</tag> from @boramalper@mastodon.social
+
+
+### 2025-01-07x2
+
+[Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #<tag>#bookRec</tag>
 
 ### 2025-01-07
 
@@ -28,16 +34,10 @@ From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
 
 <https://waitbutwhy.com/2014/05/fermi-paradox.html> <tag>#shortRead</tag>
 
-### 2025-01-07x2
+### 2025-01-06
 
-[Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #<tag>#bookRec</tag>
+From <https://taylor.town/pardon-2024>
 
-### 2025-01-08
+[The High Cost of Free Parking](https://en.wikipedia.org/wiki/The_High_Cost_of_Free_Parking) - Donald Shoup <tag>#bookRec</tag> from 
 
-<https://moxie.org/2024/09/23/a-good-engineer.html> <tag>#shortRead</tag> from @boramalper@mastodon.social
-
-### 2025-01-08x2
-
-Open source & free (!!!) map provider.
-
-<https://openfreemap.org/> & <https://openfreemap.org/quick_start/>
+<https://www.efavdb.com/math-of-parking-tickets> <tag>#shortRead</tag>
