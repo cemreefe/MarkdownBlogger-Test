@@ -13,18 +13,43 @@
 <!-- Highlight tagged links and texts -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('find-tag').forEach(tag => {
+    console.log('DOM fully loaded and parsed');
+
+    // Check if 'find-tag' elements are being selected
+    const findTags = document.querySelectorAll('find-tag');
+    console.log('find-tag elements found:', findTags);
+
+    findTags.forEach(tag => {
+      console.log('Adding click event listener to:', tag);
+
       tag.addEventListener('click', () => {
         const searchString = tag.textContent.trim();
-        document.querySelectorAll('a').forEach(link => {
+        console.log('Clicked tag text:', searchString);
+
+        // Check all 'a' elements
+        const links = document.querySelectorAll('a');
+        console.log('Number of links found:', links.length);
+
+        links.forEach(link => {
+          console.log('Checking link:', link.href);
+
           if (link.href.includes(searchString)) {
+            console.log('Highlighting link:', link.href);
             link.classList.add('highlighted');
           } else {
             link.classList.remove('highlighted');
           }
         });
-        document.querySelectorAll('tag').forEach(tag => {
+
+        // Check all 'tag' elements
+        const tags = document.querySelectorAll('tag');
+        console.log('Number of tag elements found:', tags.length);
+
+        tags.forEach(tag => {
+          console.log('Checking tag text:', tag.innerText);
+
           if (tag.innerText.includes(searchString)) {
+            console.log('Highlighting tag:', tag.innerText);
             tag.classList.add('highlighted');
           } else {
             tag.classList.remove('highlighted');
@@ -34,6 +59,7 @@
     });
   });
 </script>
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BE6M913MKW"></script>
