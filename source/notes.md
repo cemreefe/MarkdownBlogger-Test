@@ -60,6 +60,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // Set the margin-top of the next h3 to 100vh
             nextElement.style.marginTop = "100vh";
         }
+
+        // Scroll back to the original linked h3 instantly
+        currentH3.scrollIntoView({ behavior: 'auto', block: 'start' });
     }
 });
 </script>
