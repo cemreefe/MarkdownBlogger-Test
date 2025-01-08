@@ -9,22 +9,21 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
-### 2025-01-08x2
+### 2025-01-08 12:48
 
 Open source & free (!!!) map provider.
 
 <https://openfreemap.org/> & <https://openfreemap.org/quick_start/>
 
-### 2025-01-08
+### 2025-01-08 12:01
 
 <https://moxie.org/2024/09/23/a-good-engineer.html> <tag>#shortRead</tag> from @boramalper@mastodon.social
 
-
-### 2025-01-07x2
+### 2025-01-07 13:48
 
 [Yılkı Atı](https://www.goodreads.com/book/show/10576557-y-lk-at) #<tag>#bookRec</tag>
 
-### 2025-01-07
+### 2025-01-07 10:32
 
 From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
 
@@ -34,7 +33,7 @@ From <https://blog.codinghorror.com/the-great-filter-comes-for-us-all/>
 
 <https://waitbutwhy.com/2014/05/fermi-paradox.html> <tag>#shortRead</tag>
 
-### 2025-01-06
+### 2025-01-06 23:01
 
 From <https://taylor.town/pardon-2024>
 
