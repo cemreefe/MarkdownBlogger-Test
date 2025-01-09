@@ -18,7 +18,7 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 <li> <find-tag>#newsletter</find-tag>: a newsletter they may be curating </li>
 </ul>
 
-All feeds tagged with #rss on this page are included in this auto-generated reader:
+All feeds tagged with #rss on this page are automatically included in this reader:
 
 ! include auto_rss
 
