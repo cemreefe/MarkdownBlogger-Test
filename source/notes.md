@@ -9,6 +9,16 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-09 17:41
+
+Moshidon vs Mastodon android app
+
+When i go to someone's profile, I expect to see their pinned posts first. 
+Thats what pinned means. Mastodon app shows pinned, you need to navigate to posts. 
+Moshidon shows posts first, you need to navigate to posts. Neither is ideal. It should
+be pinned first, then posts.. I guess. If you're not frequently checking on someone.
+
+
 ### 2025-01-08 12:48
 
 Open source & free (!!!) map provider.
