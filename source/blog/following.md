@@ -18,6 +18,10 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 <li> <find-tag>#newsletter</find-tag>: a newsletter they may be curating </li>
 </ul>
 
+All feeds tagged with #rss on this page are included in this auto-generated reader:
+
+! include auto_rss
+
 ## Taylor Troesh
 
 <https://taylor.town/#blog>
@@ -119,10 +123,3 @@ Good work on tying the web together, including bridgy fed.
 <https://snarfed.org/#blog>
 
 <https://snarfed.org/feed#rss>
-
-
----
-
-All #rss tags in this page are included in;
-
-! include auto_rss
