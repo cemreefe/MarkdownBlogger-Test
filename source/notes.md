@@ -9,6 +9,10 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-09 20:13 
+
+[Yggdrasil Network](https://yggdrasil-network.github.io/) <tag>#shortRead</tag>
+
 ### 2025-01-08 12:48
 
 Open source & free (!!!) map provider.
