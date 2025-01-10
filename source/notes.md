@@ -13,7 +13,7 @@ Legend:
 
 > [O]rganizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.
 > 
-> — Melvin E. Conway, [How Do Committees Invent?](https://www.melconway.com/Home/pdf/committees.pdf)
+> — Melvin E. Conway, [How Do Committees Invent?](https://www.melconway.com/Home/pdf/committees.pdf) <tag>#shortRead</tag>
 
 ### 2025-01-10 18:53 
 
