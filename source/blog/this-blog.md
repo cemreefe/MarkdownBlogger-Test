@@ -17,17 +17,15 @@ what I plugged into it from my previous scribblings. But I changed the way it lo
 million times. This has been a topic that I've thought about to no particular avail; substance 
 over form.
 
-| | | |
-|-|-|-|
-| ![](/static/img/blog/blog-history/1.png) | ![](/static/img/blog/blog-history/2.png) | ![](/static/img/blog/blog-history/3.png) | 
-| ![](/static/img/blog/blog-history/4.png) | ![](/static/img/blog/blog-history/5.png) | ![](/static/img/blog/blog-history/6.png) |  
-
 However, there is more than just substance (content) and form (styling). There is also
 functionality, utility. I've started thinking about how I can make this blog into a utility
 that will want to make me use it. Not a man-made-horror addiction-algorithm-generator, but 
 instead something that I will take joy in using, and something that brings everything together 
 on my online life and fills the gaps between what I use to make the web a social place, 
 as well as a knowledge base.
+
+![](/static/img/blog/blog-history.png) 
+<small>What my personal blog looked like in the past.</small>
 
 So what do I expect from this blog? And how do I mean to use it?
 
