@@ -60,29 +60,29 @@ Here's an example "password function". My context is only the url of the website
 
 Imagine I'm signing up to `facebook.com`. I'll then have a quick think, and I'll go through these:
 
-| Step                                  | Result  |
-|---------------------------------------|---------|
-| Number of letters in the website name + 5 | `13`    |
-| `.`                                   | `.`     |
+| Step                                         | Result  |
+|----------------------------------------------|---------|
+| Number of letters in the website name + 5    | `13`    |
+| `.`                                          | `.`     |
 | Last 3 letters of the website name, reversed | `koo`   |
-| Last letter of the website's TLD      | `m`     |
-| `!` if it ends with a vowel, `?` otherwise | `?`     |
-| Number of consonants in the website name | `4`     |
-| **Generated Password**                | **`13.koom?4`** |
+| Last letter of the website's TLD             | `m`     |
+| `!` if it ends with a vowel, `?` otherwise.  | `?`     |
+| Number of consonants in the website name.    | `4`     |
+| **Generated Password**                       | **`13.koom?4`** |
 
 And voila, an example password; `13.koom?4`
 
 As a second example let's say I'm logging into `amnesty.org`.
 
-| Step                                  | Result  |
-|---------------------------------------|---------|
-| Number of letters in the website name + 5 | `12`    |
-| `.`                                   | `.`     |
-| Last 3 letters of the website name, reversed | `yts`   |
-| Last letter of the website's TLD      | `g`     |
+| Step                                       | Result  |
+|--------------------------------------------|---------|
+| Number of letters in the website name + 5  | `12`    |
+| `.`                                        | `.`     |
+| Last 3 letters of the website name, reversed | `yts` |
+| Last letter of the website's TLD           | `g`     |
 | `!` if it ends with a vowel, `?` otherwise | `!`     |
-| Number of consonants in the website name | `4`     |
-| **Generated Password**                | **`12.ytsg!4`** |
+| Number of consonants in the website name   | `4`     |
+| **Generated Password**                     | **`12.ytsg!4`** |
 
 And voila, an example password; `12.ytsg!5`
 
@@ -93,6 +93,7 @@ It might feel counter-intuitive at first, but I've been using this for a long ti
 ## Wouldn't people be able to infer all your passwords from a single password?
 
 ![image](https://github.com/user-attachments/assets/2c64d3bd-afa8-4ccf-913d-6b3411c99af6)
+<small>People can see patterns where they are not, and may not see them where they are.</small>
 
 No, genius. They would not. First of all hacking doesn't really work like that anymore, we're not in 2005. Nobody "hacks your password". They get you to change it by pretending they are police officers who think you're a terrorist. But even if someone were to get a hold of your password for facebook, `12.koom?4`, do you think they would go "hold on a second!!!! 12 is exactly 5 more than the number of letters in facebook! If this has a `!` in it, surely a website with a vowel at the end of their name would have a `?`"? No.
 
