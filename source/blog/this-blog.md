@@ -1,4 +1,12 @@
-# What do I expect from this blog
+---
+title: What I expect from this blog
+date:  2025-01-10
+tags:  blogging
+       generic
+description: Babbling about using a blog to record life and inspire myself to write more.
+---
+
+# What I expect from this blog
 
 I do have another blog, where I write about more serious computer-science stuff. 
 But this one is not that. However, as the now-owner of two blogs on the world wide web,
