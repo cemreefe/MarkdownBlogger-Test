@@ -9,6 +9,12 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-10 21:10 
+
+> [O]rganizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.
+> 
+> — Melvin E. Conway, [How Do Committees Invent?](https://www.melconway.com/Home/pdf/committees.pdf)
+
 ### 2025-01-10 18:53 
 
 [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) is a js script as a bookmark that can be executed on demand in any webpage.
