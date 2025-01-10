@@ -9,7 +9,10 @@ what I plugged into it from my previous scribblings. But I changed the way it lo
 million times. This has been a topic that I've thought about to no particular avail; substance 
 over form.
 
-[Images to be added here.]
+| | | |
+|-|-|-|
+| ![](/static/img/blog/blog-history/1.png) | ![](/static/img/blog/blog-history/2.png) | ![](/static/img/blog/blog-history/3.png) | 
+| ![](/static/img/blog/blog-history/4.png) | ![](/static/img/blog/blog-history/5.png) | ![](/static/img/blog/blog-history/6.png) |  
 
 However, there is more than just substance (content) and form (styling). There is also
 functionality, utility. I've started thinking about how I can make this blog into a utility
