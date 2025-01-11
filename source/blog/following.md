@@ -171,6 +171,12 @@ Interestingly, I came accross them on <https://kagi.com/smallweb>.
 
 <https://mijndertstuij.nl/feed#rss>
 
+### Steven Garrity
+
+<https://actsofvolition.com/#blog>
+
+<https://actsofvolition.com/feed/#rss>
+
 ## Orgs & Co-ops
 
 ### SilverOrange
