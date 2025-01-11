@@ -159,7 +159,7 @@ PS. Check mine out on <https://rss-reader.dutl.uk>. In my completely unbiased op
 
 <https://www.calishat.com/#blog>
 
-<https://www.calishat.com/feed#rss>
+<https://www.calishat.com/feed/#rss>
 
 ### Mijndert Stuij
 
