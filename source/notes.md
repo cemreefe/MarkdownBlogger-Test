@@ -9,6 +9,12 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-11 11:17 
+
+<https://kill-the-newsletter.com/>; newsletter -> RSS.
+
+Ethical? I'm not so sure. Useful? Probably.
+
 ### 2025-01-10 21:10 
 
 > [O]rganizations which design systems (in the broad sense used here) are constrained to produce designs which are copies of the communication structures of these organizations.
