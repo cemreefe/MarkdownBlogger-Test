@@ -40,6 +40,7 @@ main h2, main h3, main h4 {
 .wrapper {
     max-width: 600px;
     margin-left: 8px;
+    margin-right: 8px;
 }
 
 .wrapper img {
