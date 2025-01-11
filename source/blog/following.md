@@ -167,7 +167,15 @@ Senior DevOps Engineer. Runner. Minimalist. Their blog looks very nice, interest
 
 Interestingly, I came accross them on <https://kagi.com/smallweb>.
 
-https://mijndertstuij.nl/#blog
+<https://mijndertstuij.nl/#blog>
 
-https://mijndertstuij.nl/feed.xml#rss
+<https://mijndertstuij.nl/feed#rss>
+
+## Orgs & Co-ops
+
+### SilverOrange
+
+The collective thoughts of web design and development firm silverorange
+
+<https://blog.silverorange.com/feed#rss>
 
