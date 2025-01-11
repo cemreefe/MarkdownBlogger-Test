@@ -143,6 +143,14 @@ She is on substack so I do expect paid content in the future.
 
 <https://swangxswang.substack.com/feed#rss>
 
+### Jim Nielsen
+
+Experienced designer, coder, engineer. Posts frequently.
+
+<https://www.jim-nielsen.com/#blog>
+
+<https://blog.jim-nielsen.com/feed.xml#rss>
+
 ## The -their blog seems nice so I'm giving them a go- people
 
 ### Tara Calishain
