@@ -24,10 +24,6 @@ All feeds tagged with #rss on this page are automatically included in this reade
 
 [TOC]
 
-## Friends & family
-
-Hic sunt dracones.
-
 ## The -I like what they write- people
 
 ### Taylor Troesh
@@ -175,6 +171,3 @@ https://mijndertstuij.nl/#blog
 
 https://mijndertstuij.nl/feed.xml#rss
 
-## Organizations, cooperatives
-
-Hic sunt dracones.
