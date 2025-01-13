@@ -9,6 +9,24 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-13 17:31
+
+> from <https://vale.rocks/posts/the-design-of-this-site.html>
+
+Digital Garden 
+
+<https://maggieappleton.com/garden-history>
+
+> Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page describing how her website ‘lives’:
+>
+> > I’m happy to report that this page (like most housework) will never be finished. It is a living document that grows and matures, just like most of real life. It is not a “work in progress”, for this would imply not much intrinsic value until that magic day it is completed.
+> >
+> >A novel is a work of art that, once completed may continue to exist forever in that finished state. An encyclopedia must be published at regular intervals to reflect new information gathered since the day it was published. Periodicals are timely only when first printed, then fall behind the times – get the latest issue to keep up. The technology behind web documents allows us to update information as often as is necessary. In this context, publishing dates become an outdated concept.
+> >
+> >While it is possible to “finish” a web document, the fixed information becomes stagnant, thus abolishing any desire for a return visit. This is something I call a cob-web page.
+
+Github powered comments solution. Better replacement for commentbox! <https://giscus.app/>
+
 ### 2025-01-11 11:17 
 
 <https://kill-the-newsletter.com/>; newsletter -> RSS.
