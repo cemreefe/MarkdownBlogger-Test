@@ -6,7 +6,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     // Base URL for the RSS reader
-    const baseUrl = 'https://rss-reader.dutl.uk/?feeds=';
+    const baseUrl = 'https://rss-reader.dutl.uk/';
 
     // Select all links on the page
     const links = document.querySelectorAll('a');
@@ -20,10 +20,13 @@
     const encodedLinks = rssLinks.map(encodeURIComponent).join(',');
 
     // Extract query params from the current page
-    const currentQueryParams = window.location.search;
+    const currentQueryParams = new URLSearchParams(window.location.search);
 
-    // Construct the final URL
-    const rssReaderUrl = `${baseUrl}${encodedLinks}${currentQueryParams}`;
+    // Add the feeds and ttl as new query params to the base URL
+    currentQueryParams.set('feeds', encodedLinks);
+
+    // Construct the final URL using the updated query params
+    const rssReaderUrl = `${baseUrl}?${currentQueryParams.toString()}`;
 
     // Output the URL (you can replace this with any other action)
     console.log(rssReaderUrl);
