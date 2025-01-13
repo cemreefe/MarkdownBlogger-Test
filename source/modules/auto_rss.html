@@ -21,9 +21,15 @@
 
     // Extract query params from the current page
     const currentQueryParams = new URLSearchParams(window.location.search);
+    console.log(window.location)
+    console.log(window.location.search)
+    console.log("cqp", currentQueryParams)
+    console.log("cqp.s", currentQueryParams.toString())
 
     // Add the feeds and ttl as new query params to the base URL
     currentQueryParams.set('feeds', encodedLinks);
+    console.log("cqp2", currentQueryParams)
+    console.log("cqp.s2", currentQueryParams.toString())
 
     // Construct the final URL using the updated query params
     const rssReaderUrl = `${baseUrl}?${currentQueryParams.toString()}`;
