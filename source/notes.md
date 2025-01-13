@@ -27,6 +27,14 @@ Digital Garden
 
 Github powered comments solution. Better replacement for commentbox! <https://giscus.app/>
 
+<https://gwern.net/> Absolutely beautiful blog. Reads like a newspaper
+
+<https://www.lesswrong.com/> Worth a visit. A bit too overwhelming as a first time visitor tbh.
+
+<https://turntrout.com/> good-looking little blog, ai
+
+<https://www.joshwcomeau.com/> cool design
+
 ### 2025-01-11 11:17 
 
 <https://kill-the-newsletter.com/>; newsletter -> RSS.
