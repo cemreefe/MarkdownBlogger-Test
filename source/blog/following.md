@@ -185,6 +185,17 @@ Interestingly, I came accross them on <https://kagi.com/smallweb>.
 
 <https://actsofvolition.com/feed/#rss>
 
+### Declan Chidlow (Vale)
+
+The blog is very neatly organized. I like the two-level structure, their mastodon posts are cool, so I'm giving them a follow.
+
+<https://vale.rocks/posts#blog>
+
+<https://vale.rocks/posts/feed.xml#rss>
+
+Photography feed
+<https://vale.rocks/photography/feed.xml>
+
 ## Orgs & Co-ops
 
 ### SilverOrange
