@@ -113,3 +113,10 @@ blockquote {
     border-left: 2px solid;
     padding-left: 10px;
 }
+
+pre code {
+    color: #0007ff;
+    background-color: unset;
+    overflow-x: scroll;
+    text-wrap: pretty;
+}
