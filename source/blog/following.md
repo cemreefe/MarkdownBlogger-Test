@@ -32,6 +32,8 @@ Bora is a friend of mine from many years ago. I've always enjoyed his writings a
 
 <https://boramalper.org/#blog>
 
+<https://www.boramalper.org/blog/feed.xml#rss>
+
 ## The -I like what they write- people
 
 ### Taylor Troesh
