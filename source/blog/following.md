@@ -12,13 +12,11 @@ of having an rss feed to stay in my reading rotation.
 Legend:
 I'm tagging links in this article with pound/number sign tips. Click on these tags to highlight all tagged links (Requires JS).
 <ul>
-<li> <find-tag>#rss</find-tag>: self-explanatory, really. </li>
+<li> <find-tag>#rss</find-tag>: an RSS feed, auto-added into my reader.</li>
 <li> <find-tag>#blog</find-tag>: a person's blog </li>
 <li> <find-tag>#roll</find-tag>: a person's index of blogs they read/follow </li>
 <li> <find-tag>#newsletter</find-tag>: a newsletter they may be curating </li>
 </ul>
-
-P.S. `#--rss` -> temporarily disabled in my reader
 
 All feeds tagged with #rss on this page are automatically included in this reader:
 
@@ -214,3 +212,6 @@ The collective thoughts of web design and development firm silverorange
 
 <https://blog.silverorange.com/feed#rss>
 
+---
+
+P.S. `#--rss` -> temporarily disabled in my reader
