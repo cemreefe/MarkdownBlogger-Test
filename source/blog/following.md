@@ -196,6 +196,14 @@ The blog is very neatly organized. I like the two-level structure, their mastodo
 Photography feed
 <https://vale.rocks/photography/feed.xml>
 
+### Terence Eden
+
+From <https://shkspr.mobi/blog/2020/01/even-google-forgets-to-renew-its-domains/>
+
+<https://shkspr.mobi/blog/feed/rss/#rss>
+
+<https://shkspr.mobi/blog/#blog>
+
 ## Orgs & Co-ops
 
 ### SilverOrange
