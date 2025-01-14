@@ -34,6 +34,8 @@ Bora is a friend of mine from many years ago. I've always enjoyed his writings a
 
 <https://www.boramalper.org/blog/feed.xml#rss>
 
+Also the creator of [magnetico](https://github.com/boramalper/magnetico), the decentralized torrent search utility!
+
 ## The -I like what they write- people
 
 ### Taylor Troesh
