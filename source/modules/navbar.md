@@ -2,4 +2,4 @@
 
 ![](/static/img/ms.png)
 
-[Home](/) | [Blog](/blog) | [Following](/blog/following) | [Notes](/notes)
+[Blog](/) | [About](/about) | [Following](/blog/following) | [Notes](/notes)
