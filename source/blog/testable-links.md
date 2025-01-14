@@ -112,7 +112,11 @@ With these challenges in mind |I think **link seal** could serve as a simple, pr
 I'm sure we'd be able to find anchor terms in dynamically loaded websites. The worst case for a false negative is someone clicking on an ad, and the
 worst case for a false positive is you having to update your **link seal** key.
 
-What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. 
+What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. Find me on [mastodon](https://mastodon.social/@cemre){linksealkey='some nonsense i would not say'}.
+
+## Live Demo ‼️
+
+Here's an MVP implementation of linkseal running on your browser! (I hope this is working because it would be so embarassing if not)
 
 ! include linkseal_checker
 
