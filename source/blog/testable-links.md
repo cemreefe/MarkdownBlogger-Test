@@ -102,7 +102,7 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
   > (...)
   > 2. If the site is dead, or the content isn't there, I stick the URl into the WayBack Machine and pick the archive closest to the publication date.
   > (...)
-  > ⸺ Terrence Eden, 'How bad is link rot on my blog?'
+  > - Terrence Eden, 'How bad is link rot on my blog?'
 
 ### Challenges  
 
