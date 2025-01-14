@@ -116,7 +116,7 @@ worst case for a false positive is you having to update your **link seal** key.
 
 What do you think? Any ideas? Concerns? Do you think this is a big pile of bull? Reach out to tell me and let's discuss. Find me on [mastodon](https://mastodon.social/@cemre){linksealkey='some nonsense i would not say'}.
 
-## Live Demo ‼️
+## Live Demo 🚨
 
 Here's an MVP implementation of linkseal running on your browser! (I hope this is working because it would be so embarassing if not)
 
