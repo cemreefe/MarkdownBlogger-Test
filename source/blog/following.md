@@ -24,6 +24,14 @@ All feeds tagged with #rss on this page are automatically included in this reade
 
 [TOC]
 
+## Friends
+
+### Bora M. Alper
+
+Bora is a friend of mine from many years ago. I've always enjoyed his writings and found myself sharing his interests.
+
+<https://boramalper.org/#blog>
+
 ## The -I like what they write- people
 
 ### Taylor Troesh
