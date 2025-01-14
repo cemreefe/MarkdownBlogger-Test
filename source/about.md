@@ -2,7 +2,7 @@
 title: About
 ---
 
-# Welcome to the misty step blog
+# About
 
 I created this blog to be able to write freely without chipping away at the presentability of my professional personal blog.
 
