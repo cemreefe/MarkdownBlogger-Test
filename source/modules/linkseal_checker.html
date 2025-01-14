@@ -2,7 +2,7 @@
 
 <script>
   // Utility function to log results to the "linkSealLogs" div
-  function logToDiv(message, isSuccess) {
+  function logToDiv(message, color) {
     const logDiv = document.getElementById("linkSealLogs");
     if (!logDiv) {
       console.error("Log container with ID 'linkSealLogs' not found.");
@@ -10,7 +10,7 @@
     }
     const logEntry = document.createElement("p");
     logEntry.textContent = message;
-    logEntry.style.color = isSuccess ? "green" : "red";
+    logEntry.style.color = color;
     logDiv.appendChild(logEntry);
   }
 
@@ -43,14 +43,14 @@
 
       // Check if the content includes the key
       if (content.includes(key)) {
-        logToDiv(`Validation passed for ${href}. Key '${key}' found.`, true);
+        logToDiv(`Validation passed for ${href}. Key '${key}' found.`, "chartreuse");
         return true;
       } else {
-        logToDiv(`Validation failed for ${href}. Key '${key}' not found.`, false);
+        logToDiv(`Validation failed for ${href}. Key '${key}' not found.`, "red");
         return false;
       }
     } catch (error) {
-      logToDiv(`Error checking link ${href}: ${error.message}`, false);
+      logToDiv(`Error checking link ${href}: ${error.message}`, "red");
       return false;
     }
   }
@@ -60,7 +60,7 @@
     for (const link of links) {
       const href = link.href;
       const key = link.getAttribute('linksealkey');
-      logToDiv(`Checking link: ${href} with key: '${key}'`, true);
+      logToDiv(`Checking link: ${href} with key: '${key}'`, "cornflowerblue");
       await linkSealCheck(href, key);
     }
   }
