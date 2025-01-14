@@ -85,7 +85,7 @@ One (semi) important consideration is whether your **link seal** check function 
 #### Public  
 A public **link seal** function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
 on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or 
-exploit your verification mechanism. However, this is hughly unlikely except for very specific cases. This is in no way a completely trustable verification
+exploit your verification mechanism. However, this is highly unlikely except for very specific cases. This is in no way a completely trustable verification
 method, but it should do the trick most of the time.
 
 #### Private  
