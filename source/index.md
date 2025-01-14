@@ -1,7 +1,7 @@
 ---
-title: Posts
+title: Home
 ---
 
-# Recent posts
+# Welcome to my blog, these are my posts
 
 % blog:detailed
