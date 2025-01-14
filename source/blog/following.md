@@ -18,6 +18,8 @@ I'm tagging links in this article with pound/number sign tips. Click on these ta
 <li> <find-tag>#newsletter</find-tag>: a newsletter they may be curating </li>
 </ul>
 
+P.S. `#--rss` -> temporarily disabled in my reader
+
 All feeds tagged with #rss on this page are automatically included in this reader:
 
 ! include auto_rss
@@ -73,7 +75,7 @@ is 22 yrs old and counting.
 
 <https://diamondgeezer.blogspot.com/#blog>
 
-<https://feeds.feedburner.com/blogspot/HcFb#rss>
+<https://feeds.feedburner.com/blogspot/HcFb#--rss>
 
 ### Mitxela
 
