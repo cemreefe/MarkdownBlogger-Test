@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About
 ---
 
 # Welcome to the misty step blog
