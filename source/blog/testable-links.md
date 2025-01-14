@@ -57,7 +57,7 @@ The link on our webpage would look like:
 When we want to verify the links on our blog, we can go through all `<a>` tags and call the **linkSealCheck** function for each one:  
 
 ```javascript
-function verifyLinks() {
+function keySealVerifier() {
   const links = document.querySelectorAll('a[linkSealKey]');
   links.forEach(link => {
     const href = link.href;
@@ -73,9 +73,12 @@ function verifyLinks() {
 }
 ```
 
+P.S.: This is a very simple implementation of a seal-key pair and a verifier function and it is for illustrative purposes.
+Don't come into my inbox saying muh security. I'm talking about you, @infosec.exchange.
+
 ### Public or Private Seal Check Functions  
 
-One important consideration is whether your **link seal** check function should be public or private.  
+One (semi) important consideration is whether your **link seal** check function should be public or private.  
 
 #### Public  
 A public **link seal** function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
