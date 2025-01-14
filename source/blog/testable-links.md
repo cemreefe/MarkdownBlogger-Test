@@ -1,6 +1,6 @@
 # Link seals - a testable links concept proposal
 
-I was reading [How bad is link rot on my blog?](https://shkspr.mobi/blog/2024/12/how-bad-is-link-rot-on-my-blog/){linkSealKey='Display the results as CSV'}
+I was reading [How bad is link rot on my blog?](https://shkspr.mobi/blog/2024/12/how-bad-is-link-rot-on-my-blog/){linksealkey='Display the results as CSV'}
 on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog. He shares  
 some interesting data on it as well. I encourage you to have a read.  
 
@@ -23,7 +23,7 @@ to programmatically run through the content on the target page to verify if its 
 
 ### Example  
 
-Let’s assume our target page is the following simple hello world page, and it lives on <https://my.site/>{linkSealKey='Hello World'}
+Let’s assume our target page is the following simple hello world page, and it lives on <https://my.site/>{linksealkey='Hello World'}
 
 ```html
 <html>  
@@ -51,17 +51,17 @@ function linkSealCheck(href, key) {
 The link on our webpage would look like:  
 
 ```html
-<a href='https://my.site/' linkSealKey='Hello world'>My awesome site</a>  
+<a href='https://my.site/' linksealkey='Hello world'>My awesome site</a>  
 ```  
 
 When we want to verify the links on our blog, we can go through all `<a>` tags and call the **linkSealCheck** function for each one:  
 
 ```javascript
 function keySealVerifier() {
-  const links = document.querySelectorAll('a[linkSealKey]');
+  const links = document.querySelectorAll('a[linksealkey]');
   links.forEach(link => {
     const href = link.href;
-    const key = link.getAttribute('linkSealKey');
+    const key = link.getAttribute('linksealkey');
     linkSealCheck(href, key).then(isValid => {
       if (!isValid) {
         console.warn(`Link ${href} failed the LinkSeal check!`);
