@@ -18,7 +18,7 @@ So I'm sat here thinking, what if... the scammers could not lie? Or rather, what
 
 ### Premise  
 
-My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the  
+My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the
 source linked contains the expected content. The web page that has the link should define a **link seal check** function, which can be used  
 to programmatically run through the content on the target page to verify if its content has changed drastically.  
 
