@@ -19,7 +19,7 @@ So I'm sat here thinking, what if... the scammers could not lie? Or rather, what
 ### Premise  
 
 My proposal is simple; hyperlinks on a webpage could carry information that's going to make it possible to verify if the
-source linked contains the expected content. The web page that has the link should define a **link seal check** function, which can be used  
+source linked contains the expected content. The web page that has the link should define a **link seal check** function, which can be used
 to programmatically run through the content on the target page to verify if its content has changed drastically.  
 
 ### Example  
@@ -83,7 +83,7 @@ One (semi) important consideration is whether your **link seal** check function 
 
 #### Public  
 A public **link seal** function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
-on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or 
+on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or
 exploit your verification mechanism. However, this is highly unlikely except for very specific cases. This is in no way a completely trustable verification
 method, but it should do the trick most of the time.
 
@@ -94,7 +94,7 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
 
 ### Applications  
 
-- **Gardening**: Reduce link rot and ensure outgoing links still point to accurate, relevant information.  
+- **Gardening**: Reduce link rot and ensure outgoing links still point to accurate, relevant information.
 - **Web Archives**: Cross-check preserved versions of websites against original content snapshots. In theory, you could programmatically go back in time
   on the internet archive until you find a version that satisfies your link seal key.
   Inspired by, again;
@@ -105,11 +105,10 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
 
 ### Challenges  
 
-- **Dynamic Content**: Some sites have rapidly changing content or content that they load with javascript. 
-  the website for our usecase.
+- **Dynamic Content**: Some sites have rapidly changing content or content that they load with javascript.
 - **Tampering**: A malicious actor could attempt to mimic the expected content to pass checks. 
 
-With these challenges in mind |I think **link seal** could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.  
+With these challenges in mind |I think **link seal** could serve as a simple, programmatic way to provide an extra layer of trust for hyperlinks.
 I'm sure we'd be able to find anchor terms in dynamically loaded websites. The worst case for a false negative is someone clicking on an ad, and the
 worst case for a false positive is you having to update your **link seal** key.
 
