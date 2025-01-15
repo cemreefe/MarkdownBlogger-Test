@@ -47,7 +47,7 @@ jobs:
         git remote set-url origin https://x-access-token:${{ secrets.AUTO_RENDER_PAT }}@github.com/$GITHUB_REPOSITORY
         git add -A 
         # Retrieve the latest commit message from the source branch
-        LATEST_COMMIT_MSG=$(git -C ../source log -1 --pretty=%B)
+        LATEST_COMMIT_MSG=$(git -C ../../source log -1 --pretty=%B)
         # Prepend SimplyMarkdown - to the commit message
         COMMIT_MSG="SimplyMarkdown - $LATEST_COMMIT_MSG"
         git commit -m "$COMMIT_MSG"
