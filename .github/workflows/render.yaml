@@ -34,6 +34,9 @@ jobs:
         cd ghp
         git clone -b gh-pages https://github.com/${{ github.actor }}/${{ github.event.repository.name }}
         cd ${{ github.event.repository.name }}
+        # Retrieve the latest commit message from the source branch
+        LATEST_COMMIT_MSG=$(git -C . log -1 --pretty=%B)
+        # Delete everything from source
         git rm -r '*' 
     - name: Move new output into github pages branch
       run: |
@@ -46,8 +49,6 @@ jobs:
         git config --global user.email '${{ github.actor }}@users.noreply.github.com'
         git remote set-url origin https://x-access-token:${{ secrets.AUTO_RENDER_PAT }}@github.com/$GITHUB_REPOSITORY
         git add -A 
-        # Retrieve the latest commit message from the source branch
-        LATEST_COMMIT_MSG=$(git -C ../../source log -1 --pretty=%B)
         # Prepend SimplyMarkdown - to the commit message
         COMMIT_MSG="SimplyMarkdown - $LATEST_COMMIT_MSG"
         git commit -m "$COMMIT_MSG"
