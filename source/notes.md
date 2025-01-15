@@ -9,6 +9,16 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-15 14:24
+
+from <https://shkspr.mobi/blog/2025/01/book-review-rules-for-radicals-a-pragmatic-primer-for-realistic-radicals-by-saul-alinsky/>
+
+[Rules for Radicals](https://openlibrary.org/works/OL4782340W/Rules_for_radicals?edition=key%3A/books/OL7462188M) <tag>#bookRec</tag>
+
+<https://en.wikipedia.org/wiki/Spherical_cow>
+
+> I feel confident that I could persuade a millionaire on a Friday to subsidize a revolution for Saturday out of which he would make a huge profit on Sunday even though he was certain to be executed on Monday.
+
 ### 2025-01-14 21:57 
 
 <https://openbenches.org/>
