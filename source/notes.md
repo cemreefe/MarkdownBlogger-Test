@@ -35,7 +35,7 @@ from <https://shkspr.mobi/blog/2024/12/book-review-the-ministry-of-time-kaliane-
 
 Digital Garden 
 
-<https://maggieappleton.com/garden-history>
+<https://maggieappleton.com/garden-history> <tag>#shortRead</tag>
 
 > Perhaps the greatest contributor to the philosophy behind my site is taken from the website of notable synth pioneer Wendy Carlos. Her site houses a page describing how her website ‘lives’:
 >
