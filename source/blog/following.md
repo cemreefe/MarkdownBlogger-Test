@@ -110,14 +110,6 @@ Stackexchange cofounder. Seasoned dev, rarely writes anymore. Has some good gems
 
 <https://blog.codinghorror.com/rss/#rss>
 
-### Nicolas Nova †
-
-Anthropologist, design researcher.
-
-Blog in english <https://www.nicolasnova.net/pasta-and-vinegar#blog>
-
-Blog in french <https://www.nicolasnova.net/carnet#blog>
-
 ### Anne-Laure Le Cunff
 
 Mindfulness at work <https://nesslabs.com/#blog>
@@ -223,6 +215,26 @@ From <https://shkspr.mobi/blog/2020/01/even-google-forgets-to-renew-its-domains/
 The collective thoughts of web design and development firm silverorange
 
 <https://blog.silverorange.com/feed#rss>
+
+## Honorable mentions
+
+### Aaron Swartz †
+
+I love Aaron Swartz's writing. And his blog is a good source to go back to every now and then.
+Rest in peace.
+
+<http://www.aaronsw.com/weblog/>
+
+<http://www.aaronsw.com/weblog/index.xml/#rss>
+
+### Nicolas Nova †
+
+Anthropologist, design researcher.
+
+Blog in english <https://www.nicolasnova.net/pasta-and-vinegar#blog>
+
+Blog in french <https://www.nicolasnova.net/carnet#blog>
+
 
 ---
 
