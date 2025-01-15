@@ -10,8 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Get commit message
-      run: LATEST_COMMIT_MSG=$(git -C . log -1 --pretty=%B)
+    - name: Get commit message from the source branch
+      id: get_commit_message
+      run: |
+        # Fetch the latest commit message from the source branch
+        LATEST_COMMIT_MSG=$(git log -1 --pretty=%B)
+        echo "LATEST_COMMIT_MSG=$LATEST_COMMIT_MSG" >> $GITHUB_ENV
     - name: Set up Python3
       uses: actions/setup-python@v2
       with:
@@ -53,4 +57,3 @@ jobs:
         COMMIT_MSG="SimplyMarkdown - $LATEST_COMMIT_MSG"
         git commit -m "$COMMIT_MSG"
         git push
-    
