@@ -1,5 +1,5 @@
 ---
-title: Link seals - self-testing links concept
+title: Link seals - self-testing links proof of concept
 date:  2025-01-14
 emoji: ⛓️‍💥
 tags:  coding
@@ -8,7 +8,7 @@ tags:  coding
 description: Link seals provide a quick soft-check utility for link health on your web spaces.
 ---
 
-# Link seals - a testable links concept proposal
+# Link seals - self-testing links proof of concept
 
 [TOC]
 
