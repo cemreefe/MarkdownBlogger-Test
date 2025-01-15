@@ -24,7 +24,7 @@ This is an interesting topic. Let me quote some relevant bits for me to set the 
 
 So I'm sat here thinking, what if... the scammers could not lie? Or rather, what if you could detect it when they did? Enter⸺  
 
-## Link seals
+## What is a link seal
 
 ### Premise  
 
@@ -87,22 +87,22 @@ function keySealVerifier() {
 P.S.: This is a very simple implementation of a seal-key pair and a verifier function and it is for illustrative purposes.
 Don't come into my inbox saying muh security. I'm talking about you, @infosec.exchange.
 
-### Public or Private Seal Check Functions  
+## Public or Private Seal Check Functions  
 
 One (semi) important consideration is whether your **link seal** check function should be public or private.  
 
-#### Public  
+### Public  
 A public **link seal** function allows anyone to verify the content of your links. This improves transparency and helps others keep integrity checks
 on your website indefinitely. However, it also opens the possibility for abuse, as malicious actors could use the function to scrape information or
 exploit your verification mechanism. However, this is highly unlikely except for very specific cases. This is in no way a completely trustable verification
 method, but it should do the trick most of the time.
 
-#### Private  
+### Private  
 A private **link seal** function is less exposed and can help protect your implementation from misuse. However, this approach limits the ability of third 
 parties (e.g., search engines or link-checking tools) to independently verify your links, potentially reducing the reach of your verification mechanism.
 However, this is rarely a case for concern, as you'll be doing the gardening for the foreseeable future.
 
-### Applications  
+## Applications  
 
 - **Gardening**: Reduce link rot and ensure outgoing links still point to accurate, relevant information.
 - **Web Archives**: Cross-check preserved versions of websites against original content snapshots. In theory, you could programmatically go back in time
@@ -113,7 +113,7 @@ However, this is rarely a case for concern, as you'll be doing the gardening for
   > (...)
   > 一 Terrence Eden, 'How bad is link rot on my blog?'
 
-### Challenges  
+## Challenges  
 
 - **Dynamic Content**: Some sites have rapidly changing content or content that they load with javascript.
 - **Tampering**: A malicious actor could attempt to mimic the expected content to pass checks. 
