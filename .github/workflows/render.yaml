@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Get commit message
+      run: LATEST_COMMIT_MSG=$(git -C . log -1 --pretty=%B)
     - name: Set up Python3
       uses: actions/setup-python@v2
       with:
@@ -34,9 +36,7 @@ jobs:
         cd ghp
         git clone -b gh-pages https://github.com/${{ github.actor }}/${{ github.event.repository.name }}
         cd ${{ github.event.repository.name }}
-        # Retrieve the latest commit message from the source branch
-        LATEST_COMMIT_MSG=$(git -C . log -1 --pretty=%B)
-        # Delete everything from source
+        # Delete everything from gh-pages to render anew
         git rm -r '*' 
     - name: Move new output into github pages branch
       run: |
