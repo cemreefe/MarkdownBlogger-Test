@@ -6,8 +6,7 @@ I was reading [How bad is link rot on my blog?](https://shkspr.mobi/blog/2024/12
 on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog. He shares
 some interesting data on it as well. I encourage you to have a read.  
 
-This is an interesting topic. Let me quote some relevant bits for me to set the scene if you're not bothering to read  
-his full post.  
+This is an interesting topic. Let me quote some relevant bits for me to set the scene if you're not bothering to read his full post.  
 
 > Why don't I just cURL the URL and see if it responds with a 2xx HTTP code?  
 >  
