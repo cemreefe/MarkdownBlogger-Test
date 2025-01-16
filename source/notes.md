@@ -9,6 +9,14 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-16 12:49 
+
+from https://shkspr.mobi/blog/2025/01/book-review-jagannath-by-karin-tidbeck/
+
+[Jagannath](https://openlibrary.org/isbn/9781101973981) <tag>#bookRec</tag>
+
+
+
 ### 2025-01-15 14:24
 
 from <https://shkspr.mobi/blog/2025/01/book-review-rules-for-radicals-a-pragmatic-primer-for-realistic-radicals-by-saul-alinsky/>
