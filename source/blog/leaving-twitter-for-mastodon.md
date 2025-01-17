@@ -1,5 +1,5 @@
 ---
-description: I list and detail my three reasons for Moving to mastodon from Twitter; The algorithm, the ens*ittification and decentralization (freedom of control).
+description: I list and detail my four reasons for Moving to mastodon from Twitter; The algorithm, the ens*ittification, decentralization (freedom of control) & the protocol.
 ---
 
 # Why I left Twitter & why I chose Mastodon over Bluesky
