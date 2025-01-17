@@ -2,6 +2,6 @@
 title: Home
 ---
 
-# Welcome to my blog! These are my posts
+# Welcome to my blog!
 
 % blog:detailed
