@@ -208,6 +208,11 @@ From <https://shkspr.mobi/blog/2020/01/even-google-forgets-to-renew-its-domains/
 
 <https://shkspr.mobi/blog/#blog>
 
+### Katherine Yang
+
+<https://kayserifserif.place/#blog>
+<https://kayserifserif.place/feed.xml#rss>
+
 ## Orgs & Co-ops
 
 ### SilverOrange
