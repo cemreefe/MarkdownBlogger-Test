@@ -9,6 +9,12 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-18 13:19
+
+from <https://shkspr.mobi/blog/2013/01/why-didnt-the-romans-invent-the-internet/>
+
+<https://en.wikipedia.org/wiki/Optical_telegraph>
+
 ### 2025-01-16 12:49 
 
 from <https://shkspr.mobi/blog/2025/01/book-review-jagannath-by-karin-tidbeck/>
