@@ -9,6 +9,14 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-18 21:30 
+
+Add comments to your blog with mastodon
+<https://blog.thms.uk/2023/02/mastodon-comments>
+
+Add comments to your blog with github 
+<<https://giscus.app/>>
+
 ### 2025-01-18 13:19
 
 from <https://shkspr.mobi/blog/2013/01/why-didnt-the-romans-invent-the-internet/>
