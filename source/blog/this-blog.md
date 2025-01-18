@@ -85,7 +85,7 @@ _their_ own little corner of the web. What they are passionate about and think a
 they want to share all their thinking with the world. And I'd be giving anyone who's interested 
 a window into mine.
 
-
+! include socials
 
 
 

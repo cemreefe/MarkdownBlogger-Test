@@ -78,4 +78,4 @@ seems unnecessary and counterproductive when the goal should be fostering unity 
 
 [5] <https://news.ycombinator.com/item?id=35881905>
 
-
+! include socials

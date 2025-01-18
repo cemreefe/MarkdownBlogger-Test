@@ -1,0 +1,110 @@
+<parsers-ignore id="share-buttons">
+    <a id="mastodon-share" target="_blank" rel="noopener noreferrer" href="https://example.com/mastodon">
+        <button>
+        <img src="static/img/social/mastodon.png" alt="Mastodon">
+        </button>
+    </a>
+    
+    <a id="facebook-share" target="_blank" rel="noopener noreferrer" href="https://example.com/facebook">
+        <button>
+        <img src="static/img/social/facebook.png" alt="Facebook">
+        </button>
+    </a>
+    
+    <a id="linkedin-share" target="_blank" rel="noopener noreferrer" href="https://example.com/linkedin">
+        <button>
+        <img src="static/img/social/linkedin.png" alt="LinkedIn">
+        </button>
+    </a>
+    
+    <a id="bluesky-share" target="_blank" rel="noopener noreferrer" href="https://example.com/bluesky">
+        <button>
+        <img src="static/img/social/bluesky.png" alt="Bluesky">
+        </button>
+    </a>
+    
+    <a id="threads-share" target="_blank" rel="noopener noreferrer" href="https://example.com/threads">
+        <button>
+        <img src="static/img/social/threads.png" alt="Threads">
+        </button>
+    </a>
+    
+    <a id="reddit-share" target="_blank" rel="noopener noreferrer" href="https://example.com/reddit">
+        <button>
+        <img src="static/img/social/reddit.png" alt="Reddit">
+        </button>
+    </a>
+    
+    <a id="whatsapp-share" target="_blank" rel="noopener noreferrer" href="https://example.com/whatsapp">
+        <button>
+        <img src="static/img/social/whatsapp.png" alt="WhatsApp">
+        </button>
+    </a>
+
+    <a id="telegram-share" target="_blank" rel="noopener noreferrer" href="https://example.com/telegram">
+        <button>
+        <img src="static/img/social/telegram.png" alt="Telegram">
+        </button>
+    </a>
+</parsers-ignore>
+      
+<style>
+    #share-buttons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    #share-buttons a button img {
+        width: 40px;
+        height: 40px;
+        display: block;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const metaTitle = document.querySelector("meta[name='title']")?.content || document.title;
+        const metaDescription = document.querySelector("meta[name='description']")?.content || "";
+        const encodedTitle = encodeURIComponent(metaTitle);
+        const encodedDescription = encodeURIComponent(metaDescription);
+        const pageUrl = encodeURIComponent(window.location.href);
+
+        // Mastodon
+        const mastodonButton = document.getElementById("mastodon-share");
+        mastodonButton.href = `https://toot.io/share?text=${encodedTitle}%20${encodedDescription}%20${pageUrl}`;
+
+        // Facebook
+        const facebookButton = document.getElementById("facebook-share");
+        facebookButton.href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+
+        // LinkedIn
+        const linkedinButton = document.getElementById("linkedin-share");
+        linkedinButton.href = `https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${encodedTitle}&summary=${encodedDescription}`;
+
+        // Bluesky
+        const blueskyButton = document.getElementById("bluesky-share");
+        blueskyButton.href = `https://bsky.app/share?text=${encodedTitle}%20${pageUrl}`;
+
+        // Threads
+        const threadsButton = document.getElementById("threads-share");
+        threadsButton.href = `https://www.threads.net/share?url=${pageUrl}`;
+
+        // Reddit
+        const redditButton = document.getElementById("reddit-share");
+        redditButton.href = `https://www.reddit.com/submit?url=${pageUrl}&title=${encodedTitle}`;
+
+        // Hacker News
+        const hackernewsButton = document.getElementById("hackernews-share");
+        hackernewsButton.href = `https://news.ycombinator.com/submitlink?u=${pageUrl}&t=${encodedTitle}`;
+
+        // WhatsApp
+        const whatsappButton = document.getElementById("whatsapp-share");
+        whatsappButton.href = `https://api.whatsapp.com/send?text=${encodedTitle}%20${pageUrl}`;
+
+        // Telegram
+        const telegramButton = document.getElementById("telegram-share");
+        telegramButton.href = `https://t.me/share/url?url=${pageUrl}&text=${encodedTitle}`;
+    });
+</script>
