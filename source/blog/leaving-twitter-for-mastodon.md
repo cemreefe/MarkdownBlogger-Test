@@ -36,7 +36,7 @@ care about american politics all that much.
 
 [4] <https://www.independent.co.uk/tech/elon-musk-trump-x-algorithm-bias-b2640976.html>
 
-# 3. Decentralization & freedom of control
+## 3. Decentralization & freedom of control
 
 I don't like the idea of trusting my content & data to a centralized company, with an incentive to use anything I produce there for fiscal gain.
 
@@ -53,7 +53,7 @@ or individuals shouldering costs. There are no ads, There is no incentive to tur
 I like the idea of a decentralized web where no one is hoarding massive wealth on a community's back. With my move to mastodon I aim to be just
 one speck in the wave to speed up our transition from Twitter to a federated space because I think that's the direction of the web's  progress to freedom. 
 
-# 4. The Protocol
+## 4. The Protocol
 
 One of the significant factors in my decision was the protocol underlying Mastodon: ActivityPub. ActivityPub is an open, decentralized protocol
 that powers the Fediverse—a collection of interconnected platforms like Mastodon, PeerTube (for videos), Pixelfed (for photos), and more, older
