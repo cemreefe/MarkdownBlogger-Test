@@ -4,7 +4,7 @@ description: I list and detail my four reasons for Moving to mastodon from Twitt
 
 # Why I left Twitter & why I chose Mastodon over Bluesky
 
-I was responding to a mutual on mastodon, who I met on Twitter. And my response didn't fit in a message. So I figured I could share it here too.
+On the beginning of 2025, in line with my new year's aspirations, I left Twitter. I chose Mastodon to be my new microblogging home on the web. I was asked why I didn't go for Bluesky. I wanted to give a comprehensive response to this, and here it is.
 
 ## 1. The Algorithm
 
