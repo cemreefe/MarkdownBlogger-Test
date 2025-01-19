@@ -12,6 +12,8 @@ description: Link seals provide a quick soft-check utility for link health on yo
 
 [TOC]
 
+What if we could construct our outgoing hrefs with testability from T0?
+
 I was reading [How bad is link rot on my blog?](https://shkspr.mobi/blog/2024/12/how-bad-is-link-rot-on-my-blog/){linksealkey='Terence Eden'}
 on Terence Eden's blog. It’s an article where he shares his experience tending to outgoing links in his blog. He shares
 some [interesting data](https://shkspr.mobi/blog/link-rot/) on it as well. I encourage you to have a read.
