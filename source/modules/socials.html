@@ -66,7 +66,7 @@
 
         // Mastodon
         const mastodonButton = document.getElementById("mastodon-share");
-        mastodonButton.href = `https://tootpick.org/#text=${encodedTitle}%3A%20${encodedDescription}%20${pageUrl}`;
+        mastodonButton.href = `https://tootpick.org/#text=${encodedTitle}%20${pageUrl}`;
 
         // Facebook
         const facebookButton = document.getElementById("facebook-share");
@@ -74,7 +74,7 @@
 
         // LinkedIn
         const linkedinButton = document.getElementById("linkedin-share");
-        linkedinButton.href = `https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${encodedTitle}&summary=${encodedDescription}`;
+        linkedinButton.href = `https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${encodedTitle}`;
 
         // Bluesky
         const blueskyButton = document.getElementById("bluesky-share");
@@ -82,7 +82,7 @@
 
         // Threads
         const threadsButton = document.getElementById("threads-share");
-        threadsButton.href = `https://www.threads.net/intent/post?url=${pageUrl}&text=${encodedTitle}%20-%20${encodedDescription}`;
+        threadsButton.href = `https://www.threads.net/intent/post?url=${pageUrl}&text=${encodedTitle}`;
 
         // Reddit
         const redditButton = document.getElementById("reddit-share");
