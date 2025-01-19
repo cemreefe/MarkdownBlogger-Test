@@ -120,3 +120,8 @@ pre code {
     overflow-x: scroll;
     text-wrap: pretty;
 }
+
+/* Hit counter */
+body > img {
+    position: absolute;
+}
