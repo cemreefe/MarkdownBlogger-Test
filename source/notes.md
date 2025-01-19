@@ -9,6 +9,10 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-19 21:48 
+
+(Book Review: What If? 10th Anniversary Edition - Serious Scientific Answers to Absurd Hypothetical Questions by Randall Munroe)[https://shkspr.mobi/blog/2025/01/book-review-what-if-10th-anniversary-edition-serious-scientific-answers-to-absurd-hypothetical-questions-by-randall-munroe/] <tag>#bookRec</tag>
+
 ### 2025-01-18 21:30 
 
 Add comments to your blog with mastodon
