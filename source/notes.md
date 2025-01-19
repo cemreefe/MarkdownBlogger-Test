@@ -7,9 +7,14 @@ Legend:
 <ul>
   <li><find-tag>#bookRec</find-tag>: Book recommendations</li>
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
+  <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
-### 2025-01-19 23:38 
+### 2025-01-19 22:53
+
+[Markov Chain](https://en.wikipedia.org/wiki/Markov_chain) <tag>#concept</tag> Reminds me of automata, hos is this different?
+
+### 2025-01-19 22:38 
 
 from <https://taylor.town/year-day>
 
@@ -48,7 +53,7 @@ Add comments to your blog with github
 
 from <https://shkspr.mobi/blog/2013/01/why-didnt-the-romans-invent-the-internet/>
 
-<https://en.wikipedia.org/wiki/Optical_telegraph>
+<https://en.wikipedia.org/wiki/Optical_telegraph> ✅
 
 ### 2025-01-16 12:49 
 
