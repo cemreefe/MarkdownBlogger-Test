@@ -130,6 +130,10 @@ What do you think? Any ideas? Concerns? Do you think this is a big pile of bull?
 
 Here's an MVP implementation of linkseal running on your browser! (I hope this is working because it would be so embarassing if not)
 
+## For Posteriority
+
+I've since found <https://unrot.link/> which seems to automate the archive check process, but not against checkable logic to determine plausible temporality of the content to get from the archive.
+
 ! include linkseal_checker
 
 ! include socials
