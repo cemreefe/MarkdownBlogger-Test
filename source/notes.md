@@ -9,9 +9,32 @@ Legend:
   <li><find-tag>#shortRead</find-tag>: Related short reads, e.g. blog posts</li>
 </ul>
 
+### 2025-01-19 23:38 
+
+from <https://taylor.town/year-day>
+
+> Every mammal gets about 1 billion heartbeats; we spend ours at 60hz.
+
+![image](https://github.com/user-attachments/assets/a7314b9d-3f43-4530-ae03-2e69099d8bc2){width='250px'}
+
+[Delayed gratification](https://en.wikipedia.org/wiki/Delayed_gratification#:~:text=Delayed%20gratification%2C%20or%20deferred%20gratification,enduring%20benefit%20in%20the%20future.)
+
+> It's your yearly nudge to solicit positive feedback. Find friends/family who want to craft the best possible Future You; prod them for honesty.
+>
+> - What can I be doing differently?
+> - How can I get to the "next level"?
+> - What's holding me back?
+> - Do you see any patterns that influence my mood?
+> - What should I spend less time on?
+> - If you were me, what would you change?
+> - Where should I focus next?
+> - What can everybody see that I can't? What's taped to my back?
+
+^ idk why, i had never considered asking for feedback outside of work.
+
 ### 2025-01-19 21:48 
 
-(Book Review: What If? 10th Anniversary Edition - Serious Scientific Answers to Absurd Hypothetical Questions by Randall Munroe)[https://shkspr.mobi/blog/2025/01/book-review-what-if-10th-anniversary-edition-serious-scientific-answers-to-absurd-hypothetical-questions-by-randall-munroe/] <tag>#bookRec</tag>
+[Book Review: What If? 10th Anniversary Edition - Serious Scientific Answers to Absurd Hypothetical Questions](https://shkspr.mobi/blog/2025/01/book-review-what-if-10th-anniversary-edition-serious-scientific-answers-to-absurd-hypothetical-questions-by-randall-munroe/) <tag>#bookRec</tag> from xkcd creator
 
 ### 2025-01-18 21:30 
 
