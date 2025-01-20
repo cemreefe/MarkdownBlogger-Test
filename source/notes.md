@@ -10,6 +10,10 @@ Legend:
   <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
+### 2025-01-20 12:25 
+
+<https://longnow.org/ideas/pace-layers/> <tag>#shortRead</tag>
+
 ### 2025-01-20 11:55 
 
 <https://www.kith.org/words/2022/06/11/best-linguistics-paper-ever-the-perception-of-rhythm-in-language/>
