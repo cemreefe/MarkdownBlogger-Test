@@ -10,6 +10,12 @@ Legend:
   <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
+### 2025-01-20 11:52 
+
+[The signs of language](https://www.hup.harvard.edu/books/9780674807969)
+
+Emergence of sign languages
+
 ### 2025-01-19 22:53
 
 [Markov Chain](https://en.wikipedia.org/wiki/Markov_chain) <tag>#concept</tag> Reminds me of automata, hos is this different?
