@@ -6,6 +6,8 @@ title: About
 
 I created this blog to be able to write freely without chipping away at the presentability of my professional personal blog.
 
+Ping me on [@cemre@mastodon.social](https://mastodon.social/@cemre){rel=me}
+
 ## Who am I
 
 Direct sunlight beneficiary
