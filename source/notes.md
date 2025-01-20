@@ -10,6 +10,12 @@ Legend:
   <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
+### 2025-01-20 11:55 
+
+<https://www.kith.org/words/2022/06/11/best-linguistics-paper-ever-the-perception-of-rhythm-in-language/>
+
+<https://repository.ubn.ru.nl/bitstream/handle/2066/15628/6033.pdf> <tag>#shortRead</tag>
+
 ### 2025-01-20 11:52 
 
 [The signs of language](https://www.hup.harvard.edu/books/9780674807969)
