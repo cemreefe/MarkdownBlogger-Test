@@ -16,9 +16,12 @@ Legend:
 
 <https://repository.ubn.ru.nl/bitstream/handle/2066/15628/6033.pdf> <tag>#shortRead</tag>
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/565b3e83-8c8a-4df4-8a39-29ded9d33a99" /> <tag>#bookRec</tag>
+
+
 ### 2025-01-20 11:52 
 
-[The signs of language](https://www.hup.harvard.edu/books/9780674807969)
+[The signs of language](https://www.hup.harvard.edu/books/9780674807969) <tag>#bookRec</tag>
 
 Emergence of sign languages
 
