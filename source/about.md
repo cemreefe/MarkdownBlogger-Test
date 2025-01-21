@@ -12,19 +12,19 @@ Ping me on [@cemre@mastodon.social](https://mastodon.social/@cemre){rel=me}
 
 Direct sunlight beneficiary
 
-![](https://github.com/user-attachments/assets/0416ecbc-eb82-41dd-b3cb-9996022f9a9a)
+![](https://github.com/user-attachments/assets/45005e39-2acb-4b32-8277-d688fc08cef7)
 
 Green path taker
 
-![](https://github.com/user-attachments/assets/bb73e92e-4d12-4894-8aed-3bb4494a54b3)
+![](https://github.com/user-attachments/assets/081b8278-3764-4b57-87d6-8d09753150b1)
 
 Traveler
 
-![](https://github.com/user-attachments/assets/35217638-4702-4cba-82f8-e3493c40489a)
+![](https://github.com/user-attachments/assets/0889e48a-8f5c-47fe-86d7-7ecf73309592)
 
 Crossword frustrato
 
-![](https://github.com/user-attachments/assets/88b0eaf4-5159-481c-853d-6fe9fd42224e)
+![](https://github.com/user-attachments/assets/3f345914-fedf-4d8d-b816-1f7a93a798b9)
 
 Londoner
 
@@ -32,7 +32,7 @@ Londoner
 
 Distance-istanbulite
 
-![](https://github.com/user-attachments/assets/afa993f6-a72c-4e4e-96ab-9b3e1b6062ab)
+![](https://github.com/user-attachments/assets/8ff781f1-42a1-4602-8082-eb639fa02021)
 
 Novice artist
 
