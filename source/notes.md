@@ -10,6 +10,10 @@ Legend:
   <li><find-tag>#concept</find-tag>: Concepts i did not know or had forgotten about</li>
 </ul>
 
+### 2025-01-21 14:59 
+
+<https://oraclebone.org/> Oracle bone characters list
+
 ### 2025-01-20 12:25 
 
 <https://longnow.org/ideas/pace-layers/> <tag>#shortRead</tag>
