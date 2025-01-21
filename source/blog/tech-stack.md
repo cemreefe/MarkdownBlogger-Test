@@ -1,4 +1,8 @@
-# My personal tech stack and exploring other options
+---
+date: 2025-01-01
+---
+
+# My personal tech stack going into 2025
 
 These are the technologies I currently use, ones I'd like to swtich to, and ones I've tried.
 
@@ -8,7 +12,7 @@ These are the technologies I currently use, ones I'd like to swtich to, and ones
 | Drive           | Google Drive        | ?                                            |                                   |
 | Search          | Google              | Kagi                                         | Duckduckgo, Yandex                |
 | Blogging        | SimplyMarkdown      | SimplyMarkdown                               | Tumblr, Blogger, Blogcu, Substack |
-| Microblogging   | Mastodon            | Mastodon                                     | Twitter, Threads, Bluesky         |
+| Microblogging   | Twitter             | Mastodon                                     | Threads, Bluesky                  |
 | Picture sharing | Pixelfed            | ?                                            | Instagram, Flickr                 |
 | OS (Personal)   | Linux               | MacOS                                        |                                   |
 | OS (Work)       | MacOS               | MacOS                                        |                                   |
