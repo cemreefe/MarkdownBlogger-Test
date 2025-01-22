@@ -213,6 +213,11 @@ From <https://shkspr.mobi/blog/2020/01/even-google-forgets-to-renew-its-domains/
 <https://kayserifserif.place/#blog>
 <https://kayserifserif.place/feed.xml#rss>
 
+### Evan Boehs
+
+<https://boehs.org/#blog>
+<https://boehs.org/in/blog.xml#rss>
+
 ## Orgs & Co-ops
 
 ### SilverOrange
